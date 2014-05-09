@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:10:58" hostname="localhost" time="0.133">
+  <properties/>
+  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.1"/>
+  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.012"/>
+  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.003"/>
+  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <system-out><![CDATA[
+skw.rx.anamorphisms.CreatingObservablesTest.create(CreatingObservablesTest.java:27)
+ • wibble
+ ✖ bad thing
+
+skw.rx.anamorphisms.CreatingObservablesTest.repeat(CreatingObservablesTest.java:35)
+ • ground hog day
+ • ground hog day
+ ‾
+
+skw.rx.anamorphisms.CreatingObservablesTest.from(CreatingObservablesTest.java:17)
+ • 1
+ • 2
+ • 3
+ ‾
+
+skw.rx.anamorphisms.CreatingObservablesTest.just(CreatingObservablesTest.java:22)
+ • one more thing
+ ‾
+
+skw.rx.anamorphisms.CreatingObservablesTest.empty(CreatingObservablesTest.java:66)
+ ‾
+
+skw.rx.anamorphisms.CreatingObservablesTest.error(CreatingObservablesTest.java:71)
+ ✖ bad thing
+
+skw.rx.anamorphisms.CreatingObservablesTest.never(CreatingObservablesTest.java:76)
+
+skw.rx.anamorphisms.CreatingObservablesTest.range(CreatingObservablesTest.java:49)
+ • 1
+ • 2
+ • 3
+ ‾
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
