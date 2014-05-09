@@ -2,11 +2,8 @@ package skw.rx.util;
 
 import java.util.ArrayList;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import rx.Observable;
 import rx.Subscription;
-import rx.functions.Action1;
 import rx.observables.GroupedObservable;
 
 public class Dumper {
