@@ -25,15 +25,6 @@ public class FilteringObservablesTest {
 	}
 	
 	@Test
-	public void testy() {
-		System.out.print("hello");
-	}
-//    @Test
-//    public void deliberateFail() {
-//        fail("bad stuff");
-//    }
-//
-	@Test
 	public void filter() {
 		dump(examScores.filter((score) -> score > 70));
 	}
