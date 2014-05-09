@@ -1,14 +1,14 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:10:58" hostname="localhost" time="0.133">
+<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:58:44" hostname="localhost" time="0.096">
   <properties/>
-  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.1"/>
-  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.012"/>
-  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
-  <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
-  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.003"/>
-  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
-  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
-  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.075"/>
+  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.009"/>
+  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.002"/>
+  <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.0"/>
+  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.002"/>
   <system-out><![CDATA[
 skw.rx.anamorphisms.CreatingObservablesTest.create(CreatingObservablesTest.java:27)
  • wibble

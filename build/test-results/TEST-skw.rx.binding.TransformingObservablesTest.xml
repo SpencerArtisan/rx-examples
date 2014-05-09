@@ -1,13 +1,13 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:10:58" hostname="localhost" time="0.049">
+<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:58:44" hostname="localhost" time="0.051">
   <properties/>
-  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.004"/>
-  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.011"/>
-  <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.006"/>
-  <testcase name="map" classname="skw.rx.binding.TransformingObservablesTest" time="0.002"/>
-  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.006"/>
+  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.005"/>
+  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
+  <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
+  <testcase name="map" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
   <testcase name="scan" classname="skw.rx.binding.TransformingObservablesTest" time="0.002"/>
-  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.015"/>
+  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.016"/>
   <testcase name="groupBy" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
   <system-out><![CDATA[
 skw.rx.binding.TransformingObservablesTest.buffer(TransformingObservablesTest.java:70)

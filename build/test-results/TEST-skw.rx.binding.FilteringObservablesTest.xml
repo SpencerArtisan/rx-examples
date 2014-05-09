@@ -1,24 +1,24 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.FilteringObservablesTest" tests="18" failures="0" errors="0" timestamp="2014-05-09T12:10:58" hostname="localhost" time="0.054">
+<testsuite name="skw.rx.binding.FilteringObservablesTest" tests="18" failures="0" errors="0" timestamp="2014-05-09T12:58:44" hostname="localhost" time="0.044">
   <properties/>
-  <testcase name="firstByPredicateWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.005"/>
-  <testcase name="firstOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="firstOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
-  <testcase name="filter" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
-  <testcase name="takeFirstWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="takeLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.007"/>
+  <testcase name="firstByPredicateWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.004"/>
+  <testcase name="firstOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="firstOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="filter" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="takeFirstWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="takeLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.006"/>
   <testcase name="lastOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="lastOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.004"/>
-  <testcase name="elementAt" classname="skw.rx.binding.FilteringObservablesTest" time="0.004"/>
-  <testcase name="firstByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.005"/>
-  <testcase name="last" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="skip" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
-  <testcase name="take" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="first" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="lastOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="elementAt" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
+  <testcase name="firstByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="last" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
+  <testcase name="skip" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="take" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
+  <testcase name="first" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
   <testcase name="testy" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
   <testcase name="takeFirst" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
-  <testcase name="takeLastBuffer" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
-  <testcase name="skipLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.004"/>
+  <testcase name="takeLastBuffer" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="skipLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.005"/>
   <system-out><![CDATA[
 skw.rx.binding.FilteringObservablesTest.firstByPredicateWhenNone(FilteringObservablesTest.java:107)
  ✖ Sequence contains no elements
