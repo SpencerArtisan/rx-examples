@@ -2,6 +2,8 @@ package skw.rx.util;
 
 import java.util.ArrayList;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
 import rx.Observable;
 import rx.Subscription;
 import rx.functions.Action1;
@@ -9,18 +11,18 @@ import rx.observables.GroupedObservable;
 
 public class Dumper {
 	public static void dump(Observable<?> observable, long milliseconds) throws InterruptedException {
-		System.out.println();
-		System.out.println(getCallingMethod());
-		
+//		System.out.println();
+//		System.out.println(getCallingMethod());
+//		
 		Subscription subscription = dumpObservable(observable);
 		Thread.sleep(milliseconds);
 		subscription.unsubscribe();
 	}
 	
 	public static void dump(Observable<?> observable) {
-		System.out.println();
-		System.out.println(getCallingMethod());
-		
+//		System.out.println();
+//		System.out.println(getCallingMethod());
+//		
 		dumpObservable(observable);
 	}
 
@@ -40,9 +42,16 @@ public class Dumper {
 
 	private static Subscription dumpNestedObservable(Observable<?> observable) {
 		return observable.reduce(new ArrayList<String>(), (a, b) -> {
-			a.add(b.toString());
+			a.add(toString(b));
 			return a;
 		}).subscribe((value) -> dumpArrayAsObservable(value));	
+	}
+
+	private static String toString(Object value) {
+		if (value instanceof GroupedObservable<?, ?>) {
+			return "Grouped Observable";
+		}
+		return value.toString();
 	}
 
 	private static void dumpArrayAsObservable(ArrayList<String> values) {
