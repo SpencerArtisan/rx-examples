@@ -1,0 +1,26 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.binding.ErrorHandlingTest" tests="2" failures="0" errors="0" timestamp="2014-05-14T16:49:47" hostname="localhost" time="0.012">
+  <properties/>
+  <testcase name="onErrorReturn" classname="skw.rx.binding.ErrorHandlingTest" time="0.004"/>
+  <testcase name="onErrorResumeNext" classname="skw.rx.binding.ErrorHandlingTest" time="0.007"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+ • recovery item for java.lang.Exception: Bad stuff
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+ • salmon
+ • perch
+ • trout
+ ‾
+----------------------------------------------END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
