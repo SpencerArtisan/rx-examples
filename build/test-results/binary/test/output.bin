@@ -223,6 +223,7 @@
  • 4
  • 5
  • 6
+ • 7
  ‾
 4----------------------------------------------iEND
 
@@ -249,7 +250,6 @@
 " • 14
 " • 15
 " • 16
-" • 17
 "4----------------------------------------------iEND
 "
 #4----------------------------------------------BEGIN
@@ -334,9 +334,10 @@
 (03----------------------------------------------END
 (0
 (14----------------------------------------------BEGIN
-(1 • 51807
-(1 • 222816
-(1 • 749390
+(1 • 65188
+(1 • 217120
+(1 • 559123
+(1 • 933336
 (1 ‾
 (13----------------------------------------------END
 (1
@@ -441,13 +442,14 @@
 (>
 (?4----------------------------------------------BEGIN
 (? • 0
-(? • 30730
-(? • 100317
-(? • 194424
-(? • 394264
-(? • 603110
-(? • 791292
-(? • 973208
+(? • 45274
+(? • 100235
+(? • 174240
+(? • 317805
+(? • 460541
+(? • 595594
+(? • 776191
+(? • 928382
 (? ‾
 (?3----------------------------------------------END
 (?
@@ -470,249 +472,296 @@
 (A3----------------------------------------------END
 (A
 CB4----------------------------------------------BEGIN
-CB/ • [Spencer Ward, Leon Jones, Mitchell Ward]
-CB- • [Sue Ward, Camden Jones, Cynthia Jones]
-CB • [Bailey Jones, Mia Ward]
+CB
+ • this
+CB • is
+CB	 • the
+CB • first
+CB • verse
+CB
+ • this
+CB • is
+CB	 • the
+CB • second
+CB • verse
 CB ‾
 CB3----------------------------------------------END
 CB
 CD4----------------------------------------------BEGIN
-CD< |→•Spencer Ward→•Leon Jones→•Mitchell Ward→|
-CD: |→•Sue Ward→•Camden Jones→•Cynthia Jones→|
-CD' |→•Bailey Jones→•Mia Ward→|
+CD • this is the first verse
 CD ‾
 CD3----------------------------------------------END
 CD
 CE4----------------------------------------------BEGIN
-CE • Creep
-CE • Paranoid Android
-CE • King of Nails
-CE • Happy Man
+CE# • [this, is, the, first, verse]
 CE ‾
 CE3----------------------------------------------END
 CE
 CF4----------------------------------------------BEGIN
-CF • Spencer Ward
-CF • Mitchell Ward
-CF • Sue Ward
+CF • 5
 CF ‾
 CF3----------------------------------------------END
 CF
 CG4----------------------------------------------BEGIN
-CGX ✖ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+CG% • {t=the, f=first, v=verse, i=is}
+CG ‾
 CG3----------------------------------------------END
 CG
 CH4----------------------------------------------BEGIN
-CH • Spencer
-CH • Spencer,Mitchell
-CH • Spencer,Mitchell,Sue
+CH3 • {t=[this, the], f=[first], v=[verse], i=[is]}
 CH ‾
 CH3----------------------------------------------END
 CH
 CI4----------------------------------------------BEGIN
-CI7 |→•Grouped Observable→•Grouped Observable→|
-CI7 |→•Grouped Observable→•Grouped Observable→|
+CI# • [first, is, the, this, verse]
 CI ‾
 CI3----------------------------------------------END
 CI
-CJ4----------------------------------------------BEGIN
-CJN |→•Leon Jones→•Camden Jones→•Cynthia Jones→•Bailey Jones→|
-CJ ‾
-CJH |→•Spencer Ward→•Mitchell Ward→•Sue Ward→•Mia Ward→|
-CJ3----------------------------------------------END
-CJ
-CK5----------------------------------------------iBEGIN
-CK • [0, 1]
-CK4----------------------------------------------iEND
-CK
-ML?Thread 13: ----------------------------------------------BEGIN
-MLThread 27:  • alien
-MLThread 27:  ‾
-ML>Thread 13: ----------------------------------------------END
-ML
-MN4----------------------------------------------BEGIN
-MN) ✖ Sequence contains too many elements
-MN3----------------------------------------------END
-MN
-MO4----------------------------------------------BEGIN
-MO# ✖ Sequence contains no elements
-MO3----------------------------------------------END
-MO
-MP4----------------------------------------------BEGIN
-MP • robin
-MP • chaffinch
-MP	 • jay
-MPSide effect on completion
-MP ‾
-MP3----------------------------------------------END
-MP
-MQ4----------------------------------------------BEGIN
-MQ • robin
-MQ • chaffinch
-MQ	 • jay
-MQ ‾
-MQ3----------------------------------------------END
-MQ
-MR4----------------------------------------------BEGIN
-MR • robin
-MR • chaffinch
-MR	 • jay
-MR ‾
-MRSide effect on finally
-MR3----------------------------------------------END
-MR
-MS4----------------------------------------------BEGIN
-MS • one thing
-MS ‾
-MS3----------------------------------------------END
-MS
-MT4----------------------------------------------BEGIN
-MT • one thing
-MT ‾
-MT3----------------------------------------------END
-MT
-MU5----------------------------------------------iBEGIN
-MU • 0
-MU • 1
-MU • 2
-MU • 3
-MU4----------------------------------------------iEND
-MU
-MV4----------------------------------------------BEGIN
-MV • things
-MV ‾
-MV3----------------------------------------------END
-MV
-MW4----------------------------------------------BEGIN
-MWA • Timestamped(timestampMillis = 1400097280064, value = robin)
-MWE • Timestamped(timestampMillis = 1400097280064, value = chaffinch)
-MW? • Timestamped(timestampMillis = 1400097280064, value = jay)
-MW ‾
-MW3----------------------------------------------END
-MW
-MX4----------------------------------------------BEGIN
-MXA • Timestamped(timestampMillis = 1400097280071, value = robin)
-MXE • Timestamped(timestampMillis = 1400097280071, value = chaffinch)
-MX? • Timestamped(timestampMillis = 1400097280071, value = jay)
-MX ‾
-MX3----------------------------------------------END
-MX
-MX4----------------------------------------------BEGIN
-MXA • Timestamped(timestampMillis = 1400097280071, value = robin)
-MXE • Timestamped(timestampMillis = 1400097280071, value = chaffinch)
-MX? • Timestamped(timestampMillis = 1400097280071, value = jay)
-MX ‾
-MX3----------------------------------------------END
-MX
-MY5----------------------------------------------iBEGIN
-MY • 0
-MY • 1
-MY • 2
-MY • 3
-MY4----------------------------------------------iEND
-MY
-MZ4----------------------------------------------BEGIN
-MZ • 1
-MZ • 2
-MZ ‾
-MZDisposing of resource
-MZ3----------------------------------------------END
-MZ
-M[4----------------------------------------------BEGIN
-M[4Side effect on error java.lang.Exception: Bad stuff
-M[ ✖ Bad stuff
-M[3----------------------------------------------END
-M[
-M\4----------------------------------------------BEGIN
-M\8Side effect for [rx.Notification@2c0c0d4f OnNext robin]
-M\ • robin
-M\<Side effect for [rx.Notification@6e9c504b OnNext chaffinch]
-M\ • chaffinch
-M\6Side effect for [rx.Notification@25933dc7 OnNext jay]
-M\	 • jay
-M\7Side effect for [rx.Notification@339345a0 OnCompleted]
-M\ ‾
-M\3----------------------------------------------END
-M\
-M]?Thread 13: ----------------------------------------------BEGIN
-M]Thread 13:  • robin
-M]Thread 13:  • chaffinch
-M]Thread 13:  • jay
-M]Thread 13:  ‾
-M]>Thread 13: ----------------------------------------------END
-M]
-M]?Thread 13: ----------------------------------------------BEGIN
-M]Thread 23:  • robin
-M]Thread 23:  • chaffinch
-M]Thread 23:  • jay
-M]Thread 23:  ‾
-M]>Thread 13: ----------------------------------------------END
-M]
-M]?Thread 13: ----------------------------------------------BEGIN
-M]Thread 28:  • robin
-M]Thread 28:  • chaffinch
-M]Thread 28:  • jay
-M]Thread 28:  ‾
-M]>Thread 13: ----------------------------------------------END
-M]
-M^5----------------------------------------------iBEGIN
-M^7 • TimeInterval [intervalInMilliseconds=11, value=0]
-M^7 • TimeInterval [intervalInMilliseconds=12, value=1]
-M^7 • TimeInterval [intervalInMilliseconds=11, value=2]
-M^7 • TimeInterval [intervalInMilliseconds=11, value=3]
-M^7 • TimeInterval [intervalInMilliseconds=12, value=4]
-M^7 • TimeInterval [intervalInMilliseconds=10, value=5]
-M^7 • TimeInterval [intervalInMilliseconds=10, value=6]
-M^7 • TimeInterval [intervalInMilliseconds=11, value=7]
-M^7 • TimeInterval [intervalInMilliseconds=11, value=8]
-M^4----------------------------------------------iEND
-M^
-M_4----------------------------------------------BEGIN
-M_ • rx.Observable@fba3249: 1
-M_ • rx.Observable@fba3249: 9
-M_ • rx.Observable@fba3249: 17
-M_ • rx.Observable@51d5cd42: 2
-M_  • rx.Observable@51d5cd42: 10
-M_  • rx.Observable@51d5cd42: 18
-M_ • rx.Observable@68522093: 3
-M_  • rx.Observable@68522093: 11
-M_  • rx.Observable@68522093: 19
-M_ • rx.Observable@43833283: 4
-M_ • rx.Observable@6119ae37: 5
-M_ • rx.Observable@3923ae7: 8
-M_ • rx.Observable@3923ae7: 16
-M_  • rx.Observable@6119ae37: 13
-M_ • rx.Observable@2d15c2da: 7
-M_  • rx.Observable@2d15c2da: 15
-M_ • rx.Observable@62d791e: 6
-M_ • rx.Observable@62d791e: 14
-M_  • rx.Observable@43833283: 12
-M_  • rx.Observable@43833283: 20
-M_ ‾
-M_3----------------------------------------------END
-M_
-M`4----------------------------------------------BEGIN
-M` • robin
-M` • chaffinch
-M`	 • jay
-M`Side effect on terminate
-M` ‾
-M`3----------------------------------------------END
-M`
-Ma4----------------------------------------------BEGIN
-Ma- • [rx.Notification@2c0c0d4f OnNext robin]
-Ma1 • [rx.Notification@6e9c504b OnNext chaffinch]
-Ma+ • [rx.Notification@25933dc7 OnNext jay]
-Ma, • [rx.Notification@339345a0 OnCompleted]
-Ma ‾
-Ma3----------------------------------------------END
-Ma
-Mb4----------------------------------------------BEGIN
-Mb) ✖ Sequence contains too many elements
-Mb3----------------------------------------------END
-Mb
-Mc4----------------------------------------------BEGIN
-Mc • default
-Mc ‾
-Mc3----------------------------------------------END
-Mc
+KJ4----------------------------------------------BEGIN
+KJ/ • [Spencer Ward, Leon Jones, Mitchell Ward]
+KJ- • [Sue Ward, Camden Jones, Cynthia Jones]
+KJ • [Bailey Jones, Mia Ward]
+KJ ‾
+KJ3----------------------------------------------END
+KJ
+KL4----------------------------------------------BEGIN
+KL< |→•Spencer Ward→•Leon Jones→•Mitchell Ward→|
+KL: |→•Sue Ward→•Camden Jones→•Cynthia Jones→|
+KL' |→•Bailey Jones→•Mia Ward→|
+KL ‾
+KL3----------------------------------------------END
+KL
+KM4----------------------------------------------BEGIN
+KM • Creep
+KM • Paranoid Android
+KM • King of Nails
+KM • Happy Man
+KM ‾
+KM3----------------------------------------------END
+KM
+KN4----------------------------------------------BEGIN
+KN • Spencer Ward
+KN • Mitchell Ward
+KN • Sue Ward
+KN ‾
+KN3----------------------------------------------END
+KN
+KO4----------------------------------------------BEGIN
+KOX ✖ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+KO3----------------------------------------------END
+KO
+KP4----------------------------------------------BEGIN
+KP • Spencer
+KP • Spencer,Mitchell
+KP • Spencer,Mitchell,Sue
+KP ‾
+KP3----------------------------------------------END
+KP
+KQ4----------------------------------------------BEGIN
+KQ7 |→•Grouped Observable→•Grouped Observable→|
+KQ7 |→•Grouped Observable→•Grouped Observable→|
+KQ ‾
+KQ3----------------------------------------------END
+KQ
+KR4----------------------------------------------BEGIN
+KRN |→•Leon Jones→•Camden Jones→•Cynthia Jones→•Bailey Jones→|
+KR ‾
+KRH |→•Spencer Ward→•Mitchell Ward→•Sue Ward→•Mia Ward→|
+KR3----------------------------------------------END
+KR
+KS5----------------------------------------------iBEGIN
+KS • [0, 1]
+KS • [2, 3]
+KS4----------------------------------------------iEND
+KS
+UT?Thread 13: ----------------------------------------------BEGIN
+UTThread 27:  • alien
+UTThread 27:  ‾
+UT>Thread 13: ----------------------------------------------END
+UT
+UV4----------------------------------------------BEGIN
+UV) ✖ Sequence contains too many elements
+UV3----------------------------------------------END
+UV
+UW4----------------------------------------------BEGIN
+UW# ✖ Sequence contains no elements
+UW3----------------------------------------------END
+UW
+UX4----------------------------------------------BEGIN
+UX • robin
+UX • chaffinch
+UX	 • jay
+UXSide effect on completion
+UX ‾
+UX3----------------------------------------------END
+UX
+UY4----------------------------------------------BEGIN
+UY • robin
+UY • chaffinch
+UY	 • jay
+UY ‾
+UY3----------------------------------------------END
+UY
+UZ4----------------------------------------------BEGIN
+UZ • robin
+UZ • chaffinch
+UZ	 • jay
+UZ ‾
+UZSide effect on finally
+UZ3----------------------------------------------END
+UZ
+U[4----------------------------------------------BEGIN
+U[ • one thing
+U[ ‾
+U[3----------------------------------------------END
+U[
+U\4----------------------------------------------BEGIN
+U\ • one thing
+U\ ‾
+U\3----------------------------------------------END
+U\
+U]5----------------------------------------------iBEGIN
+U] • 0
+U] • 1
+U] • 2
+U] • 3
+U]4----------------------------------------------iEND
+U]
+U^4----------------------------------------------BEGIN
+U^ • things
+U^ ‾
+U^3----------------------------------------------END
+U^
+U_4----------------------------------------------BEGIN
+U_A • Timestamped(timestampMillis = 1400098533334, value = robin)
+U_E • Timestamped(timestampMillis = 1400098533334, value = chaffinch)
+U_? • Timestamped(timestampMillis = 1400098533334, value = jay)
+U_ ‾
+U_3----------------------------------------------END
+U_
+U`4----------------------------------------------BEGIN
+U`A • Timestamped(timestampMillis = 1400098533342, value = robin)
+U`E • Timestamped(timestampMillis = 1400098533342, value = chaffinch)
+U`? • Timestamped(timestampMillis = 1400098533342, value = jay)
+U` ‾
+U`3----------------------------------------------END
+U`
+U`4----------------------------------------------BEGIN
+U`A • Timestamped(timestampMillis = 1400098533342, value = robin)
+U`E • Timestamped(timestampMillis = 1400098533342, value = chaffinch)
+U`? • Timestamped(timestampMillis = 1400098533342, value = jay)
+U` ‾
+U`3----------------------------------------------END
+U`
+Ua5----------------------------------------------iBEGIN
+Ua • 0
+Ua • 1
+Ua • 2
+Ua • 3
+Ua4----------------------------------------------iEND
+Ua
+Ub4----------------------------------------------BEGIN
+Ub • 1
+Ub • 2
+Ub ‾
+UbDisposing of resource
+Ub3----------------------------------------------END
+Ub
+Uc4----------------------------------------------BEGIN
+Uc4Side effect on error java.lang.Exception: Bad stuff
+Uc ✖ Bad stuff
+Uc3----------------------------------------------END
+Uc
+Ud4----------------------------------------------BEGIN
+Ud8Side effect for [rx.Notification@965af3f7 OnNext robin]
+Ud • robin
+Ud<Side effect for [rx.Notification@d8eb36f3 OnNext chaffinch]
+Ud • chaffinch
+Ud6Side effect for [rx.Notification@8fe2246f OnNext jay]
+Ud	 • jay
+Ud6Side effect for [rx.Notification@2a9c1cb OnCompleted]
+Ud ‾
+Ud3----------------------------------------------END
+Ud
+Ue?Thread 13: ----------------------------------------------BEGIN
+UeThread 13:  • robin
+UeThread 13:  • chaffinch
+UeThread 13:  • jay
+UeThread 13:  ‾
+Ue>Thread 13: ----------------------------------------------END
+Ue
+Ue?Thread 13: ----------------------------------------------BEGIN
+UeThread 24:  • robin
+UeThread 24:  • chaffinch
+UeThread 24:  • jay
+UeThread 24:  ‾
+Ue>Thread 13: ----------------------------------------------END
+Ue
+Ue?Thread 13: ----------------------------------------------BEGIN
+UeThread 28:  • robin
+UeThread 28:  • chaffinch
+UeThread 28:  • jay
+UeThread 28:  ‾
+Ue>Thread 13: ----------------------------------------------END
+Ue
+Uf5----------------------------------------------iBEGIN
+Uf7 • TimeInterval [intervalInMilliseconds=10, value=0]
+Uf7 • TimeInterval [intervalInMilliseconds=11, value=1]
+Uf7 • TimeInterval [intervalInMilliseconds=11, value=2]
+Uf7 • TimeInterval [intervalInMilliseconds=11, value=3]
+Uf7 • TimeInterval [intervalInMilliseconds=10, value=4]
+Uf7 • TimeInterval [intervalInMilliseconds=12, value=5]
+Uf7 • TimeInterval [intervalInMilliseconds=10, value=6]
+Uf7 • TimeInterval [intervalInMilliseconds=10, value=7]
+Uf7 • TimeInterval [intervalInMilliseconds=11, value=8]
+Uf4----------------------------------------------iEND
+Uf
+Ug4----------------------------------------------BEGIN
+Ug • rx.Observable@56012c27: 2
+Ug • rx.Observable@78e9b1e3: 1
+Ug • rx.Observable@43833283: 8
+Ug • rx.Observable@78e9b1e3: 9
+Ug • rx.Observable@68522093: 7
+Ug  • rx.Observable@43833283: 16
+Ug  • rx.Observable@78e9b1e3: 17
+Ug  • rx.Observable@68522093: 15
+Ug • rx.Observable@56c8ebc2: 6
+Ug  • rx.Observable@56c8ebc2: 14
+Ug • rx.Observable@7b0e3eab: 4
+Ug  • rx.Observable@7b0e3eab: 12
+Ug  • rx.Observable@7b0e3eab: 20
+Ug • rx.Observable@a6ba3c6: 5
+Ug • rx.Observable@4060a0ef: 3
+Ug  • rx.Observable@4060a0ef: 11
+Ug • rx.Observable@a6ba3c6: 13
+Ug  • rx.Observable@4060a0ef: 19
+Ug  • rx.Observable@56012c27: 10
+Ug  • rx.Observable@56012c27: 18
+Ug ‾
+Ug3----------------------------------------------END
+Ug
+Uh4----------------------------------------------BEGIN
+Uh • robin
+Uh • chaffinch
+Uh	 • jay
+UhSide effect on terminate
+Uh ‾
+Uh3----------------------------------------------END
+Uh
+Ui4----------------------------------------------BEGIN
+Ui- • [rx.Notification@965af3f7 OnNext robin]
+Ui1 • [rx.Notification@d8eb36f3 OnNext chaffinch]
+Ui+ • [rx.Notification@8fe2246f OnNext jay]
+Ui+ • [rx.Notification@2a9c1cb OnCompleted]
+Ui ‾
+Ui3----------------------------------------------END
+Ui
+Uj4----------------------------------------------BEGIN
+Uj) ✖ Sequence contains too many elements
+Uj3----------------------------------------------END
+Uj
+Uk4----------------------------------------------BEGIN
+Uk • default
+Uk ‾
+Uk3----------------------------------------------END
+Uk

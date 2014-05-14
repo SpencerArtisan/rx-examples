@@ -2,17 +2,17 @@
 <html>
 <head>
 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Test results - Class skw.rx.binding.ConditionalOperatorTest</title>
+<title>Test results - Class skw.rx.binding.MathematicalOperatorTest</title>
 <link href="css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <script src="js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class skw.rx.binding.ConditionalOperatorTest</h1>
+<h1>Class skw.rx.binding.MathematicalOperatorTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/skw.rx.binding.html">skw.rx.binding</a> &gt; ConditionalOperatorTest</div>
+<a href="../packages/skw.rx.binding.html">skw.rx.binding</a> &gt; MathematicalOperatorTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -22,7 +22,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">13</div>
+<div class="counter">7</div>
 <p>tests</p>
 </div>
 </td>
@@ -34,7 +34,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.187s</div>
+<div class="counter">0.055s</div>
 <p>duration</p>
 </div>
 </td>
@@ -71,68 +71,38 @@
 </tr>
 </thead>
 <tr>
-<td class="success">all</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">amb</td>
-<td>0.059s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">contains</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">defaultIfEmpty</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">exists</td>
-<td>0.008s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">isEmpty</td>
+<td class="success">concat</td>
 <td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">sequenceEqual</td>
-<td>0.009s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">skipUntil</td>
-<td>0.026s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">skipWhile</td>
+<td class="success">count</td>
 <td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">skipWhileWithIndex</td>
-<td>0.009s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">takeUntil</td>
-<td>0.025s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">takeWhile</td>
+<td class="success">reduce</td>
 <td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">takeWhileWithIndex</td>
-<td>0.010s</td>
+<td class="success">toList</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">toMap</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">toMultiMap</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">toSortedList</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -141,95 +111,46 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>----------------------------------------------BEGIN
- • stained
- • and
- • it's
- • not
- • my
- • fault
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • true
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • true
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • default
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • true
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • true
- ‾
-----------------------------------------------END
-
-----------------------------------------------iBEGIN
- • I
- • am
+ • this
+ • is
+ • the
  • first
- ‾
-----------------------------------------------iEND
-
-----------------------------------------------BEGIN
- • Zurich
+ • verse
+ • this
  • is
+ • the
+ • second
+ • verse
  ‾
 ----------------------------------------------END
 
-----------------------------------------------iBEGIN
- • 0
- • 1
- • 2
- • 3
- • 4
+----------------------------------------------BEGIN
+ • this is the first verse
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • [this, is, the, first, verse]
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 5
- • 6
- • 7
- ‾
-----------------------------------------------iEND
-
-----------------------------------------------BEGIN
- • Zurich
- • is
- • stained
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • true
+ • {t=the, f=first, v=verse, i=is}
  ‾
 ----------------------------------------------END
 
-----------------------------------------------iBEGIN
- • 8
- • 9
- • 10
- • 11
- • 12
- • 13
- • 14
- • 15
- • 16
-----------------------------------------------iEND
+----------------------------------------------BEGIN
+ • {t=[this, the], f=[first], v=[verse], i=[is]}
+ ‾
+----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • and
- • it's
- • not
- • my
- • fault
+ • [first, is, the, this, verse]
  ‾
 ----------------------------------------------END
 

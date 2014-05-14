@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.binding.MathematicalOperatorTest" tests="7" failures="0" errors="0" timestamp="2014-05-14T20:15:32" hostname="localhost" time="0.056">
+  <properties/>
+  <testcase name="concat" classname="skw.rx.binding.MathematicalOperatorTest" time="0.006"/>
+  <testcase name="reduce" classname="skw.rx.binding.MathematicalOperatorTest" time="0.007"/>
+  <testcase name="toList" classname="skw.rx.binding.MathematicalOperatorTest" time="0.006"/>
+  <testcase name="count" classname="skw.rx.binding.MathematicalOperatorTest" time="0.007"/>
+  <testcase name="toMap" classname="skw.rx.binding.MathematicalOperatorTest" time="0.009"/>
+  <testcase name="toMultiMap" classname="skw.rx.binding.MathematicalOperatorTest" time="0.011"/>
+  <testcase name="toSortedList" classname="skw.rx.binding.MathematicalOperatorTest" time="0.009"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
+ • this
+ • is
+ • the
+ • first
+ • verse
+ • this
+ • is
+ • the
+ • second
+ • verse
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • this is the first verse
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • [this, is, the, first, verse]
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 5
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • {t=the, f=first, v=verse, i=is}
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • {t=[this, the], f=[first], v=[verse], i=[is]}
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • [first, is, the, this, verse]
+ ‾
+----------------------------------------------END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,19 +1,19 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.ConditionalOperatorTest" tests="13" failures="0" errors="0" timestamp="2014-05-14T19:54:39" hostname="localhost" time="0.191">
+<testsuite name="skw.rx.binding.ConditionalOperatorTest" tests="13" failures="0" errors="0" timestamp="2014-05-14T20:15:32" hostname="localhost" time="0.191">
   <properties/>
-  <testcase name="skipWhileWithIndex" classname="skw.rx.binding.ConditionalOperatorTest" time="0.011"/>
-  <testcase name="exists" classname="skw.rx.binding.ConditionalOperatorTest" time="0.009"/>
-  <testcase name="sequenceEqual" classname="skw.rx.binding.ConditionalOperatorTest" time="0.011"/>
+  <testcase name="skipWhileWithIndex" classname="skw.rx.binding.ConditionalOperatorTest" time="0.009"/>
+  <testcase name="exists" classname="skw.rx.binding.ConditionalOperatorTest" time="0.008"/>
+  <testcase name="sequenceEqual" classname="skw.rx.binding.ConditionalOperatorTest" time="0.009"/>
   <testcase name="defaultIfEmpty" classname="skw.rx.binding.ConditionalOperatorTest" time="0.007"/>
-  <testcase name="contains" classname="skw.rx.binding.ConditionalOperatorTest" time="0.006"/>
-  <testcase name="all" classname="skw.rx.binding.ConditionalOperatorTest" time="0.006"/>
-  <testcase name="amb" classname="skw.rx.binding.ConditionalOperatorTest" time="0.058"/>
-  <testcase name="takeWhileWithIndex" classname="skw.rx.binding.ConditionalOperatorTest" time="0.008"/>
-  <testcase name="takeUntil" classname="skw.rx.binding.ConditionalOperatorTest" time="0.023"/>
+  <testcase name="contains" classname="skw.rx.binding.ConditionalOperatorTest" time="0.007"/>
+  <testcase name="all" classname="skw.rx.binding.ConditionalOperatorTest" time="0.007"/>
+  <testcase name="amb" classname="skw.rx.binding.ConditionalOperatorTest" time="0.059"/>
+  <testcase name="takeWhileWithIndex" classname="skw.rx.binding.ConditionalOperatorTest" time="0.01"/>
+  <testcase name="takeUntil" classname="skw.rx.binding.ConditionalOperatorTest" time="0.025"/>
   <testcase name="takeWhile" classname="skw.rx.binding.ConditionalOperatorTest" time="0.007"/>
   <testcase name="isEmpty" classname="skw.rx.binding.ConditionalOperatorTest" time="0.006"/>
-  <testcase name="skipUntil" classname="skw.rx.binding.ConditionalOperatorTest" time="0.024"/>
-  <testcase name="skipWhile" classname="skw.rx.binding.ConditionalOperatorTest" time="0.008"/>
+  <testcase name="skipUntil" classname="skw.rx.binding.ConditionalOperatorTest" time="0.026"/>
+  <testcase name="skipWhile" classname="skw.rx.binding.ConditionalOperatorTest" time="0.007"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • stained
  • and
@@ -70,6 +70,7 @@
  • 4
  • 5
  • 6
+ • 7
  ‾
 ----------------------------------------------iEND
 
@@ -95,7 +96,6 @@
  • 14
  • 15
  • 16
- • 17
 ----------------------------------------------iEND
 
 ----------------------------------------------BEGIN
