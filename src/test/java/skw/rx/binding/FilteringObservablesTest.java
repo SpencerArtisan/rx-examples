@@ -1,20 +1,14 @@
 package skw.rx.binding;
 
-import static org.junit.Assert.*;
-import static skw.rx.util.Dumper.*;
+import static skw.rx.util.Dumper.dump;
+import static skw.rx.util.Dumper.dumpForTimePeriod;
 
 import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
-
-import skw.rx.util.TestObservableFactory;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import rx.Observable;
-import rx.Subscriber;
-import rx.functions.Func1;
-import rx.observables.GroupedObservable;
 
 public class FilteringObservablesTest {
 	private Observable<Double> examScores;

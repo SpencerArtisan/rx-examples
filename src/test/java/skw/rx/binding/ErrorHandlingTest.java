@@ -1,26 +1,11 @@
 package skw.rx.binding;
 
-import static org.junit.Assert.*;
-import static skw.rx.util.Dumper.*;
-
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-import java.util.function.Function;
-
-import javax.swing.plaf.ListUI;
-
-import jdk.nashorn.internal.ir.LiteralNode.ArrayLiteralNode.ArrayUnit;
-import skw.rx.util.TestObservableFactory;
+import static skw.rx.util.Dumper.dump;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import rx.Observable;
-import rx.Subscriber;
-import rx.functions.Func1;
-import rx.observables.GroupedObservable;
 
 public class ErrorHandlingTest {
 	private Observable<String> birds;

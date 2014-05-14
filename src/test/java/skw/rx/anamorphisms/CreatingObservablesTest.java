@@ -4,8 +4,6 @@ import static skw.rx.util.Dumper.*;
 
 import java.util.concurrent.TimeUnit;
 
-import skw.rx.util.TestObservableFactory;
-
 import org.junit.Test;
 
 import rx.Observable;
@@ -75,3 +73,10 @@ public class CreatingObservablesTest {
 	}
 }
 
+class TestObservableFactory {
+	public String value = "old value";
+	
+	public Observable<String> createObservable() {
+		return Observable.just(value);
+	}
+}
