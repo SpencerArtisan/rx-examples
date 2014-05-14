@@ -70,10 +70,10 @@ public class TransformingObservablesTest {
 		dump(people.buffer(3));
 	}
 	
-//	@Test
-//	public void bufferByTime() throws Exception {
-//		dump(Observable.interval(10, TimeUnit.MILLISECONDS).buffer(25, TimeUnit.MILLISECONDS), 50);
-//	}
+	@Test
+	public void bufferByTime() throws Exception {
+		dumpForTimePeriod(Observable.interval(10, TimeUnit.MILLISECONDS).buffer(25, TimeUnit.MILLISECONDS), 50);
+	}
 
 	@Test
 	public void window() throws Exception {

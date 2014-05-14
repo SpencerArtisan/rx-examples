@@ -49,18 +49,16 @@ public class CreatingObservablesTest {
 		dump(Observable.range(1, 3));
 	}
 	
-//	@Test
-//	public void interval() throws Exception {
-//		dump(Observable.interval(10, TimeUnit.MILLISECONDS));
-//		Thread.sleep(50);
-//	}
-//	
-//	@Test
-//	public void timer() throws Exception {
-//		dump(Observable.timer(10, TimeUnit.MILLISECONDS));
-//		Thread.sleep(50);		
-//	}
-//	
+	@Test
+	public void interval() throws Exception {
+		dumpForTimePeriod(Observable.interval(10, TimeUnit.MILLISECONDS), 100);
+	}
+	
+	@Test
+	public void timer() throws Exception {
+		dumpForTimePeriod(Observable.timer(10, TimeUnit.MILLISECONDS), 100);
+	}
+	
 	@Test
 	public void empty() throws Exception {
 		dump(Observable.empty());

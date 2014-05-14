@@ -73,4 +73,11 @@ public class CombiningObservablesTest {
 	public void combineLatest() throws Exception {
 		dump(Observable.combineLatest(helloWorld, colours, (a,b) -> a + b));
 	}
+	
+	@Test
+	public void switchOnNext() throws Exception {
+		dump(Observable.switchOnNext(observableOfObservables));
+	}
+	
+	
 }

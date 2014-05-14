@@ -1,14 +1,16 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-14T15:07:50" hostname="localhost" time="0.094">
+<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="10" failures="0" errors="0" timestamp="2014-05-14T15:42:45" hostname="localhost" time="0.333">
   <properties/>
-  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.072"/>
-  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.01"/>
+  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.078"/>
+  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.013"/>
   <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
   <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.0"/>
-  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
+  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.0"/>
   <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
-  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.002"/>
-  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.004"/>
+  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.003"/>
+  <testcase name="timer" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.121"/>
+  <testcase name="interval" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.105"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • wibble
  ✖ bad thing
@@ -49,6 +51,23 @@
  • 3
  ‾
 ----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ • 0
+ ‾
+----------------------------------------------iEND
+
+----------------------------------------------iBEGIN
+ • 0
+ • 1
+ • 2
+ • 3
+ • 4
+ • 5
+ • 6
+ • 7
+ • 8
+----------------------------------------------iEND
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
