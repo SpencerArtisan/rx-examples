@@ -1,175 +1,368 @@
-
-Tskw.rx.anamorphisms.CreatingObservablesTest.create(CreatingObservablesTest.java:27)
+4----------------------------------------------BEGIN
  • wibble
  ✖ bad thing
-
-Tskw.rx.anamorphisms.CreatingObservablesTest.repeat(CreatingObservablesTest.java:35)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
  • ground hog day
  • ground hog day
  ‾
-
-Rskw.rx.anamorphisms.CreatingObservablesTest.from(CreatingObservablesTest.java:17)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
  • 1
  • 2
  • 3
  ‾
-
-Rskw.rx.anamorphisms.CreatingObservablesTest.just(CreatingObservablesTest.java:22)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
  • one more thing
  ‾
-
-Sskw.rx.anamorphisms.CreatingObservablesTest.empty(CreatingObservablesTest.java:66)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
  ‾
-
-Sskw.rx.anamorphisms.CreatingObservablesTest.error(CreatingObservablesTest.java:71)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
  ✖ bad thing
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+3----------------------------------------------END
 
-Sskw.rx.anamorphisms.CreatingObservablesTest.never(CreatingObservablesTest.java:76)
-	
-	Sskw.rx.anamorphisms.CreatingObservablesTest.range(CreatingObservablesTest.java:49)
+	4----------------------------------------------BEGIN
 	 • 1
 	 • 2
 	 • 3
 	 ‾
+	3----------------------------------------------END
+	
+
+4----------------------------------------------BEGIN
+
+ • always
+
+ • start
+
+
+ • with
+
+ • hello
+
+ • world
+
+ ‾
+
+3----------------------------------------------END
 
 
-
-dskw.rx.binding.FilteringObservablesTest.firstByPredicateWhenNone(FilteringObservablesTest.java:107)
-
-# ✖ Sequence contains no elements
-
-dskw.rx.binding.FilteringObservablesTest.firstOrDefaultByPredicate(FilteringObservablesTest.java:68)
-	 • 0.0
+4----------------------------------------------BEGIN
+ • hello
+ • world
+	 • red
+
+ • blue
+ • green
  ‾
-
-Yskw.rx.binding.FilteringObservablesTest.firstOrDefault(FilteringObservablesTest.java:63)
- • default
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • [0, 4, 8, 12, 16]
+ • [1, 5, 9, 13, 17]
+ • [2, 6, 10, 14, 18]
+ • [3, 7, 11, 15, 19]
  ‾
-
-Qskw.rx.binding.FilteringObservablesTest.filter(FilteringObservablesTest.java:38)
-
- • 91.8
- • 100.0
-
- • 89.0
-
- • 74.9
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • hellored
+ • worldblue
  ‾
-
-]skw.rx.binding.FilteringObservablesTest.takeFirstWhenNone(FilteringObservablesTest.java:112)
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+C |→•4→•5→•6→•7→•12→•13→•14→•15→|
  ‾
-
-Sskw.rx.binding.FilteringObservablesTest.takeLast(FilteringObservablesTest.java:43)
-
- • 74.9
-
- • 38.0
+a |→•0→•1→•2→•3→•8→•9→•10→•11→•16→•17→•18→•19→|
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • 0
+ • 1
+ • 2
+ • 3
+ • 4
+ • 5
+ • 6
+ • 7
+ • 8
+ • 9
+ • 10
+ • 11
+ • 12
+ • 13
+ • 14
+ • 15
+ • 16
+ • 17
+ • 18
+ • 19
  ‾
-
-Xskw.rx.binding.FilteringObservablesTest.lastOrDefault(FilteringObservablesTest.java:53)
- • default
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • worldred
+ • worldblue
+ • worldgreen
  ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • hello
+ • world
+ ✖ bad thing
+3----------------------------------------------END
 
-cskw.rx.binding.FilteringObservablesTest.lastOrDefaultByPredicate(FilteringObservablesTest.java:58)
-	 • 0.0
- ‾
-
-Uskw.rx.binding.FilteringObservablesTest.elementAt(FilteringObservablesTest.java:117)
-
- • 74.9
- ‾
-
-[skw.rx.binding.FilteringObservablesTest.firstByPredicate(FilteringObservablesTest.java:97)
-
- • 64.2
- ‾
-
-Oskw.rx.binding.FilteringObservablesTest.last(FilteringObservablesTest.java:48)
-
- • 38.0
- ‾
-
-Oskw.rx.binding.FilteringObservablesTest.skip(FilteringObservablesTest.java:77)
-
- • 64.2
-
+4----------------------------------------------BEGIN
+# ✖ Sequence contains no elements
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+	 • 0.0
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • default
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • 1
+ • 2
+ • 4
+ • 1
+ • 2
+ ‾
+3----------------------------------------------END
+
+5----------------------------------------------iBEGIN
+
+ ✖ null
+4----------------------------------------------iEND
+
+4----------------------------------------------BEGIN
+
+ • 91.8
+ • 100.0
+
  • 89.0
-
+
  • 74.9
-
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • hello
+ • world
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • 86859
+ • 273629
+ • 708230
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+
+ • 74.9
+
  • 38.0
- ‾
-
-Oskw.rx.binding.FilteringObservablesTest.take(FilteringObservablesTest.java:87)
-
+ ‾
+3----------------------------------------------END
+
+4----------------------------------------------BEGIN
+ • default
+ ‾
+3----------------------------------------------END
+
+ 5----------------------------------------------iBEGIN
+ 
  • 91.8
- • 100.0
- ‾
-
-Pskw.rx.binding.FilteringObservablesTest.first(FilteringObservablesTest.java:92)
-
- • 91.8
- ‾
-hello
-Uskw.rx.binding.FilteringObservablesTest.takeFirst(FilteringObservablesTest.java:102)
-
+ 
+ • 38.0
+  • 100.0
+ 
  • 64.2
- ‾
-
-Yskw.rx.binding.FilteringObservablesTest.takeLastBuffer(FilteringObservablesTest.java:72)
- • [74.9, 38.0]
- ‾
-
-Sskw.rx.binding.FilteringObservablesTest.skipLast(FilteringObservablesTest.java:82)
-
- • 91.8
- • 100.0
-
- • 64.2
-
+ 
  • 89.0
- ‾
-
-Wskw.rx.binding.TransformingObservablesTest.buffer(TransformingObservablesTest.java:70)
-/ • [Spencer Ward, Leon Jones, Mitchell Ward]
-- • [Sue Ward, Camden Jones, Cynthia Jones]
- • [Bailey Jones, Mia Ward]
- ‾
-
-Wskw.rx.binding.TransformingObservablesTest.window(TransformingObservablesTest.java:80)
-< |→•Spencer Ward→•Leon Jones→•Mitchell Ward→|
-: |→•Sue Ward→•Camden Jones→•Cynthia Jones→|
-' |→•Bailey Jones→•Mia Ward→|
- ‾
- 
- Xskw.rx.binding.TransformingObservablesTest.flatMap(TransformingObservablesTest.java:43)
-  • Creep
-  • Paranoid Android
-  • King of Nails
-  • Happy Man
-  ‾
-!
-!Tskw.rx.binding.TransformingObservablesTest.map(TransformingObservablesTest.java:37)
-! • Spencer Ward
-! • Mitchell Ward
-! • Sue Ward
-! ‾
-"
-"Uskw.rx.binding.TransformingObservablesTest.cast(TransformingObservablesTest.java:92)
-"X ✖ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
-#
-#Uskw.rx.binding.TransformingObservablesTest.scan(TransformingObservablesTest.java:48)
-# • Spencer
-# • Spencer,Mitchell
-# • Spencer,Mitchell,Sue
-# ‾
-$
-$Vskw.rx.binding.TransformingObservablesTest.pivot(TransformingObservablesTest.java:65)
-$e |→•rx.observables.GroupedObservable@79e47862→•rx.observables.GroupedObservable@4e925935→|
-$e |→•rx.observables.GroupedObservable@5d3d5f94→•rx.observables.GroupedObservable@68074019→|
-$ ‾
-%
-%Xskw.rx.binding.TransformingObservablesTest.groupBy(TransformingObservablesTest.java:53)
-%N |→•Leon Jones→•Camden Jones→•Cynthia Jones→•Bailey Jones→|
-% ‾
-%H |→•Spencer Ward→•Mitchell Ward→•Sue Ward→•Mia Ward→|
+ 
+ • 74.9
+ 
+ • 38.0
+  ‾
+ 4----------------------------------------------iEND
+ 
+!4----------------------------------------------BEGIN
+!	 • 0.0
+! ‾
+!3----------------------------------------------END
+!
+"4----------------------------------------------BEGIN
+"
+ • 89.0
+" ‾
+"3----------------------------------------------END
+"
+#4----------------------------------------------BEGIN
+#
+ • 38.0
+# ‾
+#3----------------------------------------------END
+#
+$4----------------------------------------------BEGIN
+$
+ • 38.0
+$ ‾
+$3----------------------------------------------END
+$
+%4----------------------------------------------BEGIN
+% • 100.0
+%
+ • 64.2
+%
+ • 89.0
+%
+ • 74.9
+%
+ • 38.0
+% ‾
+%3----------------------------------------------END
+%
+&4----------------------------------------------BEGIN
+&
+ • 91.8
+&
+ • 38.0
+& ‾
+&3----------------------------------------------END
+&
+'4----------------------------------------------BEGIN
+'
+ • 91.8
+' ‾
+'3----------------------------------------------END
+'
+(4----------------------------------------------BEGIN
+( • 1
+( • 2
+( • 4
+( ‾
+(3----------------------------------------------END
+(
+)4----------------------------------------------BEGIN
+)
+ • -1.0
+) ‾
+)3----------------------------------------------END
+)
+*4----------------------------------------------BEGIN
+*
+ • 38.0
+* ‾
+*3----------------------------------------------END
+*
++4----------------------------------------------BEGIN
++ • 0
++ • 21861
++ • 76218
++ • 209905
++ • 406657
++ • 610277
++ • 763045
++ • 908410
++ ‾
++3----------------------------------------------END
++
+,4----------------------------------------------BEGIN
+, • [74.9, 38.0]
+, ‾
+,3----------------------------------------------END
+,
+-4----------------------------------------------BEGIN
+-
+ • 91.8
+-
+ • 38.0
+- • 100.0
+-
+ • 64.2
+-
+ • 89.0
+- ‾
+-3----------------------------------------------END
+-
+/.4----------------------------------------------BEGIN
+/./ • [Spencer Ward, Leon Jones, Mitchell Ward]
+/.- • [Sue Ward, Camden Jones, Cynthia Jones]
+/. • [Bailey Jones, Mia Ward]
+/. ‾
+/.3----------------------------------------------END
+/.
+/04----------------------------------------------BEGIN
+/0< |→•Spencer Ward→•Leon Jones→•Mitchell Ward→|
+/0: |→•Sue Ward→•Camden Jones→•Cynthia Jones→|
+/0' |→•Bailey Jones→•Mia Ward→|
+/0 ‾
+/03----------------------------------------------END
+/0
+/14----------------------------------------------BEGIN
+/1 • Creep
+/1 • Paranoid Android
+/1 • King of Nails
+/1 • Happy Man
+/1 ‾
+/13----------------------------------------------END
+/1
+/24----------------------------------------------BEGIN
+/2 • Spencer Ward
+/2 • Mitchell Ward
+/2 • Sue Ward
+/2 ‾
+/23----------------------------------------------END
+/2
+/34----------------------------------------------BEGIN
+/3X ✖ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+/33----------------------------------------------END
+/3
+/44----------------------------------------------BEGIN
+/4 • Spencer
+/4 • Spencer,Mitchell
+/4 • Spencer,Mitchell,Sue
+/4 ‾
+/43----------------------------------------------END
+/4
+/54----------------------------------------------BEGIN
+/57 |→•Grouped Observable→•Grouped Observable→|
+/57 |→•Grouped Observable→•Grouped Observable→|
+/5 ‾
+/53----------------------------------------------END
+/5
+/64----------------------------------------------BEGIN
+/6N |→•Leon Jones→•Camden Jones→•Cynthia Jones→•Bailey Jones→|
+/6 ‾
+/6H |→•Spencer Ward→•Mitchell Ward→•Sue Ward→•Mia Ward→|
+/63----------------------------------------------END
+/6

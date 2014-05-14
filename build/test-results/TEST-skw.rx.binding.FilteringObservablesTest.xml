@@ -1,101 +1,193 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.FilteringObservablesTest" tests="18" failures="0" errors="0" timestamp="2014-05-09T12:58:44" hostname="localhost" time="0.044">
+<testsuite name="skw.rx.binding.FilteringObservablesTest" tests="26" failures="0" errors="0" timestamp="2014-05-14T15:07:50" hostname="localhost" time="0.224">
   <properties/>
-  <testcase name="firstByPredicateWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.004"/>
+  <testcase name="firstByPredicateWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.005"/>
   <testcase name="firstOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
   <testcase name="firstOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="filter" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
-  <testcase name="takeFirstWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
-  <testcase name="takeLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.006"/>
+  <testcase name="distinctUntilChanged" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="timeout" classname="skw.rx.binding.FilteringObservablesTest" time="0.033"/>
+  <testcase name="filter" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="ofType" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="ignoreElements" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="takeFirstWhenNone" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="sample" classname="skw.rx.binding.FilteringObservablesTest" time="0.044"/>
+  <testcase name="takeLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
   <testcase name="lastOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="timeoutWithAlternative" classname="skw.rx.binding.FilteringObservablesTest" time="0.021"/>
   <testcase name="lastOrDefaultByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
-  <testcase name="elementAt" classname="skw.rx.binding.FilteringObservablesTest" time="0.003"/>
-  <testcase name="firstByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
-  <testcase name="last" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
+  <testcase name="elementAt" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="firstByPredicate" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="last" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
   <testcase name="skip" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
   <testcase name="take" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
   <testcase name="first" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
-  <testcase name="testy" classname="skw.rx.binding.FilteringObservablesTest" time="0.0"/>
-  <testcase name="takeFirst" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <testcase name="distinct" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="elementAtOrDefault" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="takeFirst" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
+  <testcase name="throttle" classname="skw.rx.binding.FilteringObservablesTest" time="0.088"/>
   <testcase name="takeLastBuffer" classname="skw.rx.binding.FilteringObservablesTest" time="0.001"/>
-  <testcase name="skipLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.005"/>
-  <system-out><![CDATA[
-skw.rx.binding.FilteringObservablesTest.firstByPredicateWhenNone(FilteringObservablesTest.java:107)
+  <testcase name="skipLast" classname="skw.rx.binding.FilteringObservablesTest" time="0.002"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
  ✖ Sequence contains no elements
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.firstOrDefaultByPredicate(FilteringObservablesTest.java:68)
+----------------------------------------------BEGIN
  • 0.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.firstOrDefault(FilteringObservablesTest.java:63)
+----------------------------------------------BEGIN
  • default
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.filter(FilteringObservablesTest.java:38)
+----------------------------------------------BEGIN
+ • 1
+ • 2
+ • 4
+ • 1
+ • 2
+ ‾
+----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ ✖ null
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
  • 91.8
  • 100.0
  • 89.0
  • 74.9
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeFirstWhenNone(FilteringObservablesTest.java:112)
+----------------------------------------------BEGIN
+ • hello
+ • world
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeLast(FilteringObservablesTest.java:43)
+----------------------------------------------BEGIN
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 86859
+ • 273629
+ • 708230
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 74.9
  • 38.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.lastOrDefault(FilteringObservablesTest.java:53)
+----------------------------------------------BEGIN
  • default
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.lastOrDefaultByPredicate(FilteringObservablesTest.java:58)
- • 0.0
- ‾
-
-skw.rx.binding.FilteringObservablesTest.elementAt(FilteringObservablesTest.java:117)
- • 74.9
- ‾
-
-skw.rx.binding.FilteringObservablesTest.firstByPredicate(FilteringObservablesTest.java:97)
- • 64.2
- ‾
-
-skw.rx.binding.FilteringObservablesTest.last(FilteringObservablesTest.java:48)
+----------------------------------------------iBEGIN
+ • 91.8
  • 38.0
- ‾
-
-skw.rx.binding.FilteringObservablesTest.skip(FilteringObservablesTest.java:77)
+ • 100.0
  • 64.2
  • 89.0
  • 74.9
  • 38.0
  ‾
+----------------------------------------------iEND
 
-skw.rx.binding.FilteringObservablesTest.take(FilteringObservablesTest.java:87)
- • 91.8
+----------------------------------------------BEGIN
+ • 0.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 89.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 100.0
+ • 64.2
+ • 89.0
+ • 74.9
+ • 38.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.first(FilteringObservablesTest.java:92)
+----------------------------------------------BEGIN
+ • 91.8
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 91.8
  ‾
-hello
-skw.rx.binding.FilteringObservablesTest.takeFirst(FilteringObservablesTest.java:102)
- • 64.2
- ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeLastBuffer(FilteringObservablesTest.java:72)
+----------------------------------------------BEGIN
+ • 1
+ • 2
+ • 4
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • -1.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 0
+ • 21861
+ • 76218
+ • 209905
+ • 406657
+ • 610277
+ • 763045
+ • 908410
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • [74.9, 38.0]
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.skipLast(FilteringObservablesTest.java:82)
+----------------------------------------------BEGIN
  • 91.8
+ • 38.0
  • 100.0
  • 64.2
  • 89.0
  ‾
+----------------------------------------------END
+
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

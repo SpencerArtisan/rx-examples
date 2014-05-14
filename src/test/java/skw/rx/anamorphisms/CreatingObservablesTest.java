@@ -38,7 +38,7 @@ public class CreatingObservablesTest {
 //	@Test
 //	public void defer() throws Exception {
 //		TestObservableFactory factory = new TestObservableFactory();
-//		Observable<String> deferred = Observable.defer(factory::createObservable);
+//		Observable<String> deferred = Observable.<String>defer(factory::createObservable);
 //		dump(deferred);
 //		factory.value = "new value";
 //		dump(deferred);

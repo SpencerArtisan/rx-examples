@@ -7,20 +7,18 @@ import rx.Subscription;
 import rx.observables.GroupedObservable;
 
 public class Dumper {
-	public static void dump(Observable<?> observable, long milliseconds) throws InterruptedException {
-//		System.out.println();
-//		System.out.println(getCallingMethod());
-//		
+	public static void dumpForTimePeriod(Observable<?> observable, long milliseconds) throws InterruptedException {
+		System.out.println("----------------------------------------------iBEGIN");
 		Subscription subscription = dumpObservable(observable);
 		Thread.sleep(milliseconds);
 		subscription.unsubscribe();
+		System.out.println("----------------------------------------------iEND\r\n");
 	}
 	
 	public static void dump(Observable<?> observable) {
-//		System.out.println();
-//		System.out.println(getCallingMethod());
-//		
+		System.out.println("----------------------------------------------BEGIN");
 		dumpObservable(observable);
+		System.out.println("----------------------------------------------END\r\n");
 	}
 
 	private static Subscription dumpObservable(Observable<?> observable) {

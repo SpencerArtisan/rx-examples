@@ -1,58 +1,66 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-09T12:58:44" hostname="localhost" time="0.051">
+<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-14T15:07:50" hostname="localhost" time="0.033">
   <properties/>
-  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.005"/>
-  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
-  <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
+  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.003"/>
+  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.002"/>
   <testcase name="map" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
-  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
-  <testcase name="scan" classname="skw.rx.binding.TransformingObservablesTest" time="0.002"/>
-  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.016"/>
+  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="scan" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.019"/>
   <testcase name="groupBy" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
-  <system-out><![CDATA[
-skw.rx.binding.TransformingObservablesTest.buffer(TransformingObservablesTest.java:70)
+  <system-out><![CDATA[----------------------------------------------BEGIN
  • [Spencer Ward, Leon Jones, Mitchell Ward]
  • [Sue Ward, Camden Jones, Cynthia Jones]
  • [Bailey Jones, Mia Ward]
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.window(TransformingObservablesTest.java:80)
+----------------------------------------------BEGIN
  |→•Spencer Ward→•Leon Jones→•Mitchell Ward→|
  |→•Sue Ward→•Camden Jones→•Cynthia Jones→|
  |→•Bailey Jones→•Mia Ward→|
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.flatMap(TransformingObservablesTest.java:43)
+----------------------------------------------BEGIN
  • Creep
  • Paranoid Android
  • King of Nails
  • Happy Man
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.map(TransformingObservablesTest.java:37)
+----------------------------------------------BEGIN
  • Spencer Ward
  • Mitchell Ward
  • Sue Ward
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.cast(TransformingObservablesTest.java:92)
+----------------------------------------------BEGIN
  ✖ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.scan(TransformingObservablesTest.java:48)
+----------------------------------------------BEGIN
  • Spencer
  • Spencer,Mitchell
  • Spencer,Mitchell,Sue
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.pivot(TransformingObservablesTest.java:65)
- |→•rx.observables.GroupedObservable@79e47862→•rx.observables.GroupedObservable@4e925935→|
- |→•rx.observables.GroupedObservable@5d3d5f94→•rx.observables.GroupedObservable@68074019→|
+----------------------------------------------BEGIN
+ |→•Grouped Observable→•Grouped Observable→|
+ |→•Grouped Observable→•Grouped Observable→|
  ‾
+----------------------------------------------END
 
-skw.rx.binding.TransformingObservablesTest.groupBy(TransformingObservablesTest.java:53)
+----------------------------------------------BEGIN
  |→•Leon Jones→•Camden Jones→•Cynthia Jones→•Bailey Jones→|
  ‾
  |→•Spencer Ward→•Mitchell Ward→•Sue Ward→•Mia Ward→|
+----------------------------------------------END
+
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

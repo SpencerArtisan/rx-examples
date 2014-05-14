@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.binding.CombiningObservablesTest" tests="8" failures="0" errors="0" timestamp="2014-05-14T15:07:50" hostname="localhost" time="0.061">
+  <properties/>
+  <testcase name="startWith" classname="skw.rx.binding.CombiningObservablesTest" time="0.009"/>
+  <testcase name="mergeWithListOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.002"/>
+  <testcase name="zipWithObservableOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.011"/>
+  <testcase name="zip" classname="skw.rx.binding.CombiningObservablesTest" time="0.005"/>
+  <testcase name="parallelMerge" classname="skw.rx.binding.CombiningObservablesTest" time="0.013"/>
+  <testcase name="mergeWithObservableOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.001"/>
+  <testcase name="combineLatest" classname="skw.rx.binding.CombiningObservablesTest" time="0.004"/>
+  <testcase name="mergeDelayError" classname="skw.rx.binding.CombiningObservablesTest" time="0.013"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
+ • always
+ • start
+ • with
+ • hello
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • hello
+ • world
+ • red
+ • blue
+ • green
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • [0, 4, 8, 12, 16]
+ • [1, 5, 9, 13, 17]
+ • [2, 6, 10, 14, 18]
+ • [3, 7, 11, 15, 19]
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • hellored
+ • worldblue
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ |→•4→•5→•6→•7→•12→•13→•14→•15→|
+ ‾
+ |→•0→•1→•2→•3→•8→•9→•10→•11→•16→•17→•18→•19→|
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 0
+ • 1
+ • 2
+ • 3
+ • 4
+ • 5
+ • 6
+ • 7
+ • 8
+ • 9
+ • 10
+ • 11
+ • 12
+ • 13
+ • 14
+ • 15
+ • 16
+ • 17
+ • 18
+ • 19
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • worldred
+ • worldblue
+ • worldgreen
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • hello
+ • world
+ ✖ bad thing
+----------------------------------------------END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

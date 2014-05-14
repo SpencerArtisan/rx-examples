@@ -22,7 +22,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">18</div>
+<div class="counter">26</div>
 <p>tests</p>
 </div>
 </td>
@@ -34,7 +34,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.034s</div>
+<div class="counter">0.215s</div>
 <p>duration</p>
 </div>
 </td>
@@ -71,13 +71,28 @@
 </tr>
 </thead>
 <tr>
+<td class="success">distinct</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">distinctUntilChanged</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">elementAt</td>
-<td>0.003s</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">elementAtOrDefault</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">filter</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -87,12 +102,12 @@
 </tr>
 <tr>
 <td class="success">firstByPredicate</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">firstByPredicateWhenNone</td>
-<td>0.004s</td>
+<td>0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -106,8 +121,13 @@
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">ignoreElements</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">last</td>
-<td>0s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -121,13 +141,23 @@
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">ofType</td>
+<td>0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sample</td>
+<td>0.044s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">skip</td>
 <td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">skipLast</td>
-<td>0.005s</td>
+<td>0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -137,17 +167,17 @@
 </tr>
 <tr>
 <td class="success">takeFirst</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">takeFirstWhenNone</td>
-<td>0.002s</td>
+<td>0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">takeLast</td>
-<td>0.006s</td>
+<td>0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -156,8 +186,18 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testy</td>
-<td>0s</td>
+<td class="success">throttle</td>
+<td>0.088s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timeout</td>
+<td>0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timeoutWithAlternative</td>
+<td>0.021s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -165,90 +205,174 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>
-skw.rx.binding.FilteringObservablesTest.firstByPredicateWhenNone(FilteringObservablesTest.java:107)
+<pre>----------------------------------------------BEGIN
  ✖ Sequence contains no elements
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.firstOrDefaultByPredicate(FilteringObservablesTest.java:68)
+----------------------------------------------BEGIN
  • 0.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.firstOrDefault(FilteringObservablesTest.java:63)
+----------------------------------------------BEGIN
  • default
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.filter(FilteringObservablesTest.java:38)
+----------------------------------------------BEGIN
+ • 1
+ • 2
+ • 4
+ • 1
+ • 2
+ ‾
+----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ ✖ null
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
  • 91.8
  • 100.0
  • 89.0
  • 74.9
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeFirstWhenNone(FilteringObservablesTest.java:112)
+----------------------------------------------BEGIN
+ • hello
+ • world
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeLast(FilteringObservablesTest.java:43)
+----------------------------------------------BEGIN
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 86859
+ • 273629
+ • 708230
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 74.9
  • 38.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.lastOrDefault(FilteringObservablesTest.java:53)
+----------------------------------------------BEGIN
  • default
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.lastOrDefaultByPredicate(FilteringObservablesTest.java:58)
- • 0.0
- ‾
-
-skw.rx.binding.FilteringObservablesTest.elementAt(FilteringObservablesTest.java:117)
- • 74.9
- ‾
-
-skw.rx.binding.FilteringObservablesTest.firstByPredicate(FilteringObservablesTest.java:97)
- • 64.2
- ‾
-
-skw.rx.binding.FilteringObservablesTest.last(FilteringObservablesTest.java:48)
+----------------------------------------------iBEGIN
+ • 91.8
  • 38.0
- ‾
-
-skw.rx.binding.FilteringObservablesTest.skip(FilteringObservablesTest.java:77)
+ • 100.0
  • 64.2
  • 89.0
  • 74.9
  • 38.0
  ‾
+----------------------------------------------iEND
 
-skw.rx.binding.FilteringObservablesTest.take(FilteringObservablesTest.java:87)
- • 91.8
+----------------------------------------------BEGIN
+ • 0.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 89.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 100.0
+ • 64.2
+ • 89.0
+ • 74.9
+ • 38.0
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.first(FilteringObservablesTest.java:92)
+----------------------------------------------BEGIN
+ • 91.8
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • 91.8
  ‾
-hello
-skw.rx.binding.FilteringObservablesTest.takeFirst(FilteringObservablesTest.java:102)
- • 64.2
- ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.takeLastBuffer(FilteringObservablesTest.java:72)
+----------------------------------------------BEGIN
+ • 1
+ • 2
+ • 4
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • -1.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 38.0
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • 0
+ • 21861
+ • 76218
+ • 209905
+ • 406657
+ • 610277
+ • 763045
+ • 908410
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
  • [74.9, 38.0]
  ‾
+----------------------------------------------END
 
-skw.rx.binding.FilteringObservablesTest.skipLast(FilteringObservablesTest.java:82)
+----------------------------------------------BEGIN
  • 91.8
+ • 38.0
  • 100.0
  • 64.2
  • 89.0
  ‾
+----------------------------------------------END
+
 </pre>
 </span>
 </div>
 </div>
 <div id="footer">
 <p>Generated by 
-<a href="http://www.gradle.org">Gradle 1.10</a> at 09-May-2014 13:58:44</p>
+<a href="http://www.gradle.org">Gradle 1.10</a> at 14-May-2014 16:07:50</p>
 </div>
 </div>
 </body>

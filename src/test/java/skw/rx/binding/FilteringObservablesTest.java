@@ -18,10 +18,12 @@ import rx.observables.GroupedObservable;
 
 public class FilteringObservablesTest {
 	private Observable<Double> examScores;
+	private Observable<Integer> bigRange;
 	
 	@Before
 	public void before() {
-		examScores = Observable.from(91.8, 100.0, 64.2, 89.0, 74.9, 38.0);
+		examScores = Observable.from(91.8, 38.0, 100.0, 64.2, 89.0, 74.9, 38.0);
+		bigRange = Observable.range(0, 999999);
 	}
 	
 	@Test
@@ -106,5 +108,50 @@ public class FilteringObservablesTest {
 	@Test
 	public void elementAt() throws Exception {
 		dump(examScores.elementAt(4));
+	}
+	
+	@Test
+	public void elementAtOrDefault() throws Exception {
+		dump(examScores.elementAtOrDefault(40, -1.0));
+	}
+	
+	@Test
+	public void sample() throws Exception {
+		dump(bigRange.sample(10, TimeUnit.MILLISECONDS));
+	}
+	
+	@Test
+	public void throttle() throws Exception {
+		dump(bigRange.throttleFirst(10, TimeUnit.MILLISECONDS));
+	}
+	
+	@Test
+	public void timeout() throws Exception {
+		dumpForTimePeriod(Observable.never().timeout(10, TimeUnit.MILLISECONDS), 20);
+	}
+
+	@Test
+	public void timeoutWithAlternative() throws Exception {
+		dumpForTimePeriod(Observable.never().timeout(10, TimeUnit.MILLISECONDS, examScores), 20);
+	}
+	
+	@Test
+	public void distinct() throws Exception {
+		dump(Observable.from(1, 1, 2, 4, 4, 4, 1, 2, 2).distinct());
+	}
+	
+	@Test
+	public void distinctUntilChanged() throws Exception {
+		dump(Observable.from(1, 1, 2, 4, 4, 4, 1, 2, 2).distinctUntilChanged());
+	}
+	
+	@Test
+	public void ofType() throws Exception {
+		dump(Observable.from(1, "hello", 4.2, "world").ofType(String.class));
+	}
+	
+	@Test
+	public void ignoreElements() throws Exception {
+		dump(examScores.ignoreElements());
 	}
 }
