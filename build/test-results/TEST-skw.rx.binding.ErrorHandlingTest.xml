@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.ErrorHandlingTest" tests="2" failures="0" errors="0" timestamp="2014-05-14T19:01:14" hostname="localhost" time="0.021">
+<testsuite name="skw.rx.binding.ErrorHandlingTest" tests="2" failures="0" errors="0" timestamp="2014-05-14T19:54:39" hostname="localhost" time="0.018">
   <properties/>
-  <testcase name="onErrorReturn" classname="skw.rx.binding.ErrorHandlingTest" time="0.009"/>
-  <testcase name="onErrorResumeNext" classname="skw.rx.binding.ErrorHandlingTest" time="0.012"/>
+  <testcase name="onErrorReturn" classname="skw.rx.binding.ErrorHandlingTest" time="0.008"/>
+  <testcase name="onErrorResumeNext" classname="skw.rx.binding.ErrorHandlingTest" time="0.009"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • robin
  • chaffinch

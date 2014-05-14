@@ -72,27 +72,27 @@
 </thead>
 <tr>
 <td class="success">cache</td>
-<td>0.031s</td>
+<td>0.025s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">delay</td>
-<td>0.101s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">delaySubscription</td>
 <td>0.102s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">delaySubscription</td>
+<td>0.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">dematerialize</td>
-<td>0.009s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">doOnCompleted</td>
-<td>0.008s</td>
+<td>0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -107,22 +107,22 @@
 </tr>
 <tr>
 <td class="success">doOnFinally</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">doOnTerminate</td>
 <td>0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">doOnTerminate</td>
+<td>0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">materialize</td>
-<td>0.009s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">observeOn</td>
-<td>0.009s</td>
+<td>0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -132,17 +132,17 @@
 </tr>
 <tr>
 <td class="success">singleByPredicate</td>
-<td>0.007s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">singleOrDefaultWhenMany</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">singleOrDefaultWhenOne</td>
-<td>0.006s</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -157,7 +157,7 @@
 </tr>
 <tr>
 <td class="success">singleWhenOne</td>
-<td>0.005s</td>
+<td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -177,7 +177,7 @@
 </tr>
 <tr>
 <td class="success">timestamp</td>
-<td>0.009s</td>
+<td>0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -191,8 +191,8 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>Thread 13: ----------------------------------------------BEGIN
-Thread 26:  • alien
-Thread 26:  ‾
+Thread 27:  • alien
+Thread 27:  ‾
 Thread 13: ----------------------------------------------END
 
 ----------------------------------------------BEGIN
@@ -249,23 +249,23 @@ Side effect on finally
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400094074806, value = robin)
- • Timestamped(timestampMillis = 1400094074807, value = chaffinch)
- • Timestamped(timestampMillis = 1400094074807, value = jay)
+ • Timestamped(timestampMillis = 1400097280064, value = robin)
+ • Timestamped(timestampMillis = 1400097280064, value = chaffinch)
+ • Timestamped(timestampMillis = 1400097280064, value = jay)
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400094074819, value = robin)
- • Timestamped(timestampMillis = 1400094074819, value = chaffinch)
- • Timestamped(timestampMillis = 1400094074819, value = jay)
+ • Timestamped(timestampMillis = 1400097280071, value = robin)
+ • Timestamped(timestampMillis = 1400097280071, value = chaffinch)
+ • Timestamped(timestampMillis = 1400097280071, value = jay)
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400094074819, value = robin)
- • Timestamped(timestampMillis = 1400094074819, value = chaffinch)
- • Timestamped(timestampMillis = 1400094074819, value = jay)
+ • Timestamped(timestampMillis = 1400097280071, value = robin)
+ • Timestamped(timestampMillis = 1400097280071, value = chaffinch)
+ • Timestamped(timestampMillis = 1400097280071, value = jay)
  ‾
 ----------------------------------------------END
 
@@ -289,13 +289,13 @@ Side effect on error java.lang.Exception: Bad stuff
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
-Side effect for [rx.Notification@9a019d99 OnNext robin]
+Side effect for [rx.Notification@2c0c0d4f OnNext robin]
  • robin
-Side effect for [rx.Notification@dc91e095 OnNext chaffinch]
+Side effect for [rx.Notification@6e9c504b OnNext chaffinch]
  • chaffinch
-Side effect for [rx.Notification@9388ce11 OnNext jay]
+Side effect for [rx.Notification@25933dc7 OnNext jay]
  • jay
-Side effect for [rx.Notification@5b1cf78c OnCompleted]
+Side effect for [rx.Notification@339345a0 OnCompleted]
  ‾
 ----------------------------------------------END
 
@@ -307,10 +307,10 @@ Thread 13:  ‾
 Thread 13: ----------------------------------------------END
 
 Thread 13: ----------------------------------------------BEGIN
-Thread 21:  • robin
-Thread 21:  • chaffinch
-Thread 21:  • jay
-Thread 21:  ‾
+Thread 23:  • robin
+Thread 23:  • chaffinch
+Thread 23:  • jay
+Thread 23:  ‾
 Thread 13: ----------------------------------------------END
 
 Thread 13: ----------------------------------------------BEGIN
@@ -322,37 +322,37 @@ Thread 13: ----------------------------------------------END
 
 ----------------------------------------------iBEGIN
  • TimeInterval [intervalInMilliseconds=11, value=0]
- • TimeInterval [intervalInMilliseconds=10, value=1]
- • TimeInterval [intervalInMilliseconds=10, value=2]
+ • TimeInterval [intervalInMilliseconds=12, value=1]
+ • TimeInterval [intervalInMilliseconds=11, value=2]
  • TimeInterval [intervalInMilliseconds=11, value=3]
- • TimeInterval [intervalInMilliseconds=10, value=4]
- • TimeInterval [intervalInMilliseconds=11, value=5]
+ • TimeInterval [intervalInMilliseconds=12, value=4]
+ • TimeInterval [intervalInMilliseconds=10, value=5]
  • TimeInterval [intervalInMilliseconds=10, value=6]
  • TimeInterval [intervalInMilliseconds=11, value=7]
  • TimeInterval [intervalInMilliseconds=11, value=8]
 ----------------------------------------------iEND
 
 ----------------------------------------------BEGIN
- • rx.Observable@67804e80: 1
- • rx.Observable@5771cc50: 2
- • rx.Observable@7e6c0a79: 8
- • rx.Observable@7e6c0a79: 16
- • rx.Observable@5771cc50: 10
- • rx.Observable@5771cc50: 18
- • rx.Observable@629741ef: 7
- • rx.Observable@629741ef: 15
- • rx.Observable@40e7eae9: 6
- • rx.Observable@40e7eae9: 14
- • rx.Observable@2e6fa678: 5
- • rx.Observable@2e6fa678: 13
- • rx.Observable@2918b53a: 4
- • rx.Observable@2918b53a: 12
- • rx.Observable@2918b53a: 20
- • rx.Observable@72ad2da1: 3
- • rx.Observable@72ad2da1: 11
- • rx.Observable@72ad2da1: 19
- • rx.Observable@67804e80: 9
- • rx.Observable@67804e80: 17
+ • rx.Observable@fba3249: 1
+ • rx.Observable@fba3249: 9
+ • rx.Observable@fba3249: 17
+ • rx.Observable@51d5cd42: 2
+ • rx.Observable@51d5cd42: 10
+ • rx.Observable@51d5cd42: 18
+ • rx.Observable@68522093: 3
+ • rx.Observable@68522093: 11
+ • rx.Observable@68522093: 19
+ • rx.Observable@43833283: 4
+ • rx.Observable@6119ae37: 5
+ • rx.Observable@3923ae7: 8
+ • rx.Observable@3923ae7: 16
+ • rx.Observable@6119ae37: 13
+ • rx.Observable@2d15c2da: 7
+ • rx.Observable@2d15c2da: 15
+ • rx.Observable@62d791e: 6
+ • rx.Observable@62d791e: 14
+ • rx.Observable@43833283: 12
+ • rx.Observable@43833283: 20
  ‾
 ----------------------------------------------END
 
@@ -365,10 +365,10 @@ Side effect on terminate
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • [rx.Notification@9a019d99 OnNext robin]
- • [rx.Notification@dc91e095 OnNext chaffinch]
- • [rx.Notification@9388ce11 OnNext jay]
- • [rx.Notification@5b1cf78c OnCompleted]
+ • [rx.Notification@2c0c0d4f OnNext robin]
+ • [rx.Notification@6e9c504b OnNext chaffinch]
+ • [rx.Notification@25933dc7 OnNext jay]
+ • [rx.Notification@339345a0 OnCompleted]
  ‾
 ----------------------------------------------END
 
@@ -387,7 +387,7 @@ Side effect on terminate
 </div>
 <div id="footer">
 <p>Generated by 
-<a href="http://www.gradle.org">Gradle 1.10</a> at 14-May-2014 20:01:15</p>
+<a href="http://www.gradle.org">Gradle 1.10</a> at 14-May-2014 20:54:40</p>
 </div>
 </div>
 </body>

@@ -2,17 +2,17 @@
 <html>
 <head>
 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Test results - Class skw.rx.anamorphisms.CreatingObservablesTest</title>
+<title>Test results - Class skw.rx.binding.ConditionalOperatorTest</title>
 <link href="css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <script src="js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class skw.rx.anamorphisms.CreatingObservablesTest</h1>
+<h1>Class skw.rx.binding.ConditionalOperatorTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/skw.rx.anamorphisms.html">skw.rx.anamorphisms</a> &gt; CreatingObservablesTest</div>
+<a href="../packages/skw.rx.binding.html">skw.rx.binding</a> &gt; ConditionalOperatorTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -22,7 +22,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">10</div>
+<div class="counter">13</div>
 <p>tests</p>
 </div>
 </td>
@@ -34,7 +34,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.348s</div>
+<div class="counter">0.184s</div>
 <p>duration</p>
 </div>
 </td>
@@ -71,53 +71,68 @@
 </tr>
 </thead>
 <tr>
-<td class="success">create</td>
-<td>0.084s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">empty</td>
+<td class="success">all</td>
 <td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">error</td>
-<td>0.007s</td>
+<td class="success">amb</td>
+<td>0.058s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">from</td>
+<td class="success">contains</td>
 <td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">interval</td>
-<td>0.103s</td>
+<td class="success">defaultIfEmpty</td>
+<td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">just</td>
+<td class="success">exists</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">isEmpty</td>
 <td>0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">never</td>
+<td class="success">sequenceEqual</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipUntil</td>
+<td>0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipWhile</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">skipWhileWithIndex</td>
+<td>0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeUntil</td>
+<td>0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">takeWhile</td>
 <td>0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">range</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">repeat</td>
-<td>0.014s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">timer</td>
-<td>0.108s</td>
+<td class="success">takeWhileWithIndex</td>
+<td>0.008s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -126,50 +141,52 @@
 <h2>Standard output</h2>
 <span class="code">
 <pre>----------------------------------------------BEGIN
- • wibble
- ✖ bad thing
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • ground hog day
- • ground hog day
+ • stained
+ • and
+ • it's
+ • not
+ • my
+ • fault
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • 1
- • 2
- • 3
+ • true
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • one more thing
+ • true
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
+ • default
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- ✖ bad thing
+ • true
+ ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • 1
- • 2
- • 3
+ • true
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------iBEGIN
- • 0
+ • I
+ • am
+ • first
  ‾
 ----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • Zurich
+ • is
+ ‾
+----------------------------------------------END
 
 ----------------------------------------------iBEGIN
  • 0
@@ -179,9 +196,42 @@
  • 4
  • 5
  • 6
- • 7
- • 8
+ ‾
 ----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • Zurich
+ • is
+ • stained
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • true
+ ‾
+----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ • 8
+ • 9
+ • 10
+ • 11
+ • 12
+ • 13
+ • 14
+ • 15
+ • 16
+ • 17
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • and
+ • it's
+ • not
+ • my
+ • fault
+ ‾
+----------------------------------------------END
 
 </pre>
 </span>
