@@ -1,0 +1,393 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class skw.rx.util.UtilityOperatorsTest</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class skw.rx.util.UtilityOperatorsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/skw.rx.util.html">skw.rx.util</a> &gt; UtilityOperatorsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">23</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.490s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">cache</td>
+<td>0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">delay</td>
+<td>0.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">delaySubscription</td>
+<td>0.102s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">dematerialize</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doOnCompleted</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doOnEach</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doOnError</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doOnFinally</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">doOnTerminate</td>
+<td>0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">materialize</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">observeOn</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">parallel</td>
+<td>0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleByPredicate</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleOrDefaultWhenMany</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleOrDefaultWhenOne</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleOrDefaultWhenZero</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleWhenMany</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleWhenOne</td>
+<td>0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singleWhenZero</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">subscribeOn</td>
+<td>0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timeInterval</td>
+<td>0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">timestamp</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">using</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Thread 13: ----------------------------------------------BEGIN
+Thread 26:  • alien
+Thread 26:  ‾
+Thread 13: ----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ✖ Sequence contains too many elements
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ✖ Sequence contains no elements
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+Side effect on completion
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+ ‾
+Side effect on finally
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • one thing
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • one thing
+ ‾
+----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ • 0
+ • 1
+ • 2
+ • 3
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • things
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • Timestamped(timestampMillis = 1400094074806, value = robin)
+ • Timestamped(timestampMillis = 1400094074807, value = chaffinch)
+ • Timestamped(timestampMillis = 1400094074807, value = jay)
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • Timestamped(timestampMillis = 1400094074819, value = robin)
+ • Timestamped(timestampMillis = 1400094074819, value = chaffinch)
+ • Timestamped(timestampMillis = 1400094074819, value = jay)
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • Timestamped(timestampMillis = 1400094074819, value = robin)
+ • Timestamped(timestampMillis = 1400094074819, value = chaffinch)
+ • Timestamped(timestampMillis = 1400094074819, value = jay)
+ ‾
+----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ • 0
+ • 1
+ • 2
+ • 3
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • 1
+ • 2
+ ‾
+Disposing of resource
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+Side effect on error java.lang.Exception: Bad stuff
+ ✖ Bad stuff
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+Side effect for [rx.Notification@9a019d99 OnNext robin]
+ • robin
+Side effect for [rx.Notification@dc91e095 OnNext chaffinch]
+ • chaffinch
+Side effect for [rx.Notification@9388ce11 OnNext jay]
+ • jay
+Side effect for [rx.Notification@5b1cf78c OnCompleted]
+ ‾
+----------------------------------------------END
+
+Thread 13: ----------------------------------------------BEGIN
+Thread 13:  • robin
+Thread 13:  • chaffinch
+Thread 13:  • jay
+Thread 13:  ‾
+Thread 13: ----------------------------------------------END
+
+Thread 13: ----------------------------------------------BEGIN
+Thread 21:  • robin
+Thread 21:  • chaffinch
+Thread 21:  • jay
+Thread 21:  ‾
+Thread 13: ----------------------------------------------END
+
+Thread 13: ----------------------------------------------BEGIN
+Thread 28:  • robin
+Thread 28:  • chaffinch
+Thread 28:  • jay
+Thread 28:  ‾
+Thread 13: ----------------------------------------------END
+
+----------------------------------------------iBEGIN
+ • TimeInterval [intervalInMilliseconds=11, value=0]
+ • TimeInterval [intervalInMilliseconds=10, value=1]
+ • TimeInterval [intervalInMilliseconds=10, value=2]
+ • TimeInterval [intervalInMilliseconds=11, value=3]
+ • TimeInterval [intervalInMilliseconds=10, value=4]
+ • TimeInterval [intervalInMilliseconds=11, value=5]
+ • TimeInterval [intervalInMilliseconds=10, value=6]
+ • TimeInterval [intervalInMilliseconds=11, value=7]
+ • TimeInterval [intervalInMilliseconds=11, value=8]
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • rx.Observable@67804e80: 1
+ • rx.Observable@5771cc50: 2
+ • rx.Observable@7e6c0a79: 8
+ • rx.Observable@7e6c0a79: 16
+ • rx.Observable@5771cc50: 10
+ • rx.Observable@5771cc50: 18
+ • rx.Observable@629741ef: 7
+ • rx.Observable@629741ef: 15
+ • rx.Observable@40e7eae9: 6
+ • rx.Observable@40e7eae9: 14
+ • rx.Observable@2e6fa678: 5
+ • rx.Observable@2e6fa678: 13
+ • rx.Observable@2918b53a: 4
+ • rx.Observable@2918b53a: 12
+ • rx.Observable@2918b53a: 20
+ • rx.Observable@72ad2da1: 3
+ • rx.Observable@72ad2da1: 11
+ • rx.Observable@72ad2da1: 19
+ • rx.Observable@67804e80: 9
+ • rx.Observable@67804e80: 17
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • robin
+ • chaffinch
+ • jay
+Side effect on terminate
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • [rx.Notification@9a019d99 OnNext robin]
+ • [rx.Notification@dc91e095 OnNext chaffinch]
+ • [rx.Notification@9388ce11 OnNext jay]
+ • [rx.Notification@5b1cf78c OnCompleted]
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ✖ Sequence contains too many elements
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • default
+ ‾
+----------------------------------------------END
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.10</a> at 14-May-2014 20:01:15</p>
+</div>
+</div>
+</body>

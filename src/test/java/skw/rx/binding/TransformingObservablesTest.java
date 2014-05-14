@@ -29,7 +29,7 @@ public class TransformingObservablesTest {
 	}
 	
 	@Test
-	public void map() {
+	public void map() throws Exception {
 		dump(family.map((name) -> name + " Ward"));
 	}
 	

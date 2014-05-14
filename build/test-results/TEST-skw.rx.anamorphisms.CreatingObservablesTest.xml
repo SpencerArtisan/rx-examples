@@ -1,16 +1,16 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="10" failures="0" errors="0" timestamp="2014-05-14T16:49:47" hostname="localhost" time="0.34">
+<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="10" failures="0" errors="0" timestamp="2014-05-14T19:01:13" hostname="localhost" time="0.351">
   <properties/>
-  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.086"/>
-  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.012"/>
-  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
-  <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.001"/>
-  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.0"/>
-  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.005"/>
-  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.002"/>
-  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.003"/>
-  <testcase name="timer" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.12"/>
-  <testcase name="interval" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.106"/>
+  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.081"/>
+  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.015"/>
+  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
+  <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
+  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="timer" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.108"/>
+  <testcase name="interval" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.103"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • wibble
  ✖ bad thing

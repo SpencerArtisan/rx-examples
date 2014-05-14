@@ -21,7 +21,7 @@ public class FilteringObservablesTest {
 	}
 	
 	@Test
-	public void filter() {
+	public void filter() throws Exception {
 		dump(examScores.filter((score) -> score > 70));
 	}
 	

@@ -11,12 +11,12 @@ import rx.Subscriber;
 
 public class CreatingObservablesTest {
 	@Test
-	public void from() {
+	public void from() throws Exception {
 		dump(Observable.from(1, 2, 3));
 	}
 	
 	@Test
-	public void just() {
+	public void just() throws Exception {
 		dump(Observable.just("one more thing"));
 	}
 	

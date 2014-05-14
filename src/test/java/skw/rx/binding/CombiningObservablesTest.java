@@ -22,7 +22,7 @@ public class CombiningObservablesTest {
 	}
 	
 	@Test
-	public void startWith() {
+	public void startWith() throws Exception {
 		dump(helloWorld.startWith("always", "start", "with"));
 	}
 	
