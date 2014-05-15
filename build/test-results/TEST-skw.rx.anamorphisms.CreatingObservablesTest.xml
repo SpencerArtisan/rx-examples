@@ -1,15 +1,15 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="10" failures="0" errors="0" timestamp="2014-05-14T20:15:31" hostname="localhost" time="0.365">
+<testsuite name="skw.rx.anamorphisms.CreatingObservablesTest" tests="10" failures="0" errors="0" timestamp="2014-05-15T16:52:32" hostname="localhost" time="0.266">
   <properties/>
-  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.094"/>
-  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.015"/>
-  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="create" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.008"/>
+  <testcase name="repeat" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.011"/>
+  <testcase name="from" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
   <testcase name="just" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
   <testcase name="empty" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
-  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
-  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.006"/>
-  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.008"/>
-  <testcase name="timer" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.11"/>
+  <testcase name="error" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="never" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="range" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.007"/>
+  <testcase name="timer" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.104"/>
   <testcase name="interval" classname="skw.rx.anamorphisms.CreatingObservablesTest" time="0.103"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • wibble
@@ -67,6 +67,7 @@
  • 6
  • 7
  • 8
+ • 9
 ----------------------------------------------iEND
 
 ]]></system-out>
