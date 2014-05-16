@@ -1,27 +1,27 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.AsyncOperatorTest" tests="6" failures="0" errors="0" timestamp="2014-05-16T10:38:44" hostname="localhost" time="0.136">
+<testsuite name="skw.rx.anamorphisms.AsyncOperatorTest" tests="6" failures="0" errors="0" timestamp="2014-05-16T12:14:54" hostname="localhost" time="0.14">
   <properties/>
-  <testcase name="fromRunnable" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.087"/>
-  <testcase name="toAsync" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.013"/>
+  <testcase name="fromRunnable" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.093"/>
+  <testcase name="toAsync" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.012"/>
   <testcase name="forEachFuture" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.006"/>
   <testcase name="start" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.007"/>
-  <testcase name="fromAction" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.013"/>
-  <testcase name="fromCallable" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.006"/>
+  <testcase name="fromAction" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.011"/>
+  <testcase name="fromCallable" classname="skw.rx.anamorphisms.AsyncOperatorTest" time="0.007"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • value
  ‾
 ----------------------------------------------END
 
 Thread 13: ----------------------------------------------BEGIN
-Thread 13:  • one thing
-Thread 13:  ‾
+Thread 15:  • one thing
+Thread 15:  ‾
 Thread 13: ----------------------------------------------END
 
 1
 2
 Thread 13: ----------------------------------------------BEGIN
-Thread 13:  • one thing
-Thread 13:  ‾
+Thread 16:  • one thing
+Thread 16:  ‾
 Thread 13: ----------------------------------------------END
 
 ----------------------------------------------BEGIN

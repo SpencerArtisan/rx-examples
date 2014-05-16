@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.ErrorHandlingTest" tests="2" failures="0" errors="0" timestamp="2014-05-16T10:38:45" hostname="localhost" time="0.018">
+<testsuite name="skw.rx.binding.ErrorHandlingTest" tests="2" failures="0" errors="0" timestamp="2014-05-16T12:14:54" hostname="localhost" time="0.026">
   <properties/>
-  <testcase name="onErrorReturn" classname="skw.rx.binding.ErrorHandlingTest" time="0.009"/>
+  <testcase name="onErrorReturn" classname="skw.rx.binding.ErrorHandlingTest" time="0.017"/>
   <testcase name="onErrorResumeNext" classname="skw.rx.binding.ErrorHandlingTest" time="0.008"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • robin

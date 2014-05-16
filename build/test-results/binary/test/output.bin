@@ -4,15 +4,15 @@
 3----------------------------------------------END
 
 ?Thread 13: ----------------------------------------------BEGIN
-Thread 13:  • one thing
-Thread 13:  ‾
+Thread 15:  • one thing
+Thread 15:  ‾
 >Thread 13: ----------------------------------------------END
 
 1
 2
 ?Thread 13: ----------------------------------------------BEGIN
-Thread 13:  • one thing
-Thread 13:  ‾
+Thread 16:  • one thing
+Thread 16:  ‾
 >Thread 13: ----------------------------------------------END
 
 4----------------------------------------------BEGIN
@@ -291,7 +291,6 @@
 #+ • 7
 #+ • 8
 #+ • 9
-#+ • 10
 #+ ‾
 #+4----------------------------------------------iEND
 #+
@@ -309,6 +308,7 @@
 #-3----------------------------------------------END
 #-
 #.5----------------------------------------------iBEGIN
+#. • 10
 #. • 11
 #. • 12
 #. • 13
@@ -318,7 +318,6 @@
 #. • 17
 #. • 18
 #. • 19
-#. • 20
 #.4----------------------------------------------iEND
 #.
 #/4----------------------------------------------BEGIN
@@ -403,9 +402,8 @@
 4<3----------------------------------------------END
 4<
 4=4----------------------------------------------BEGIN
-4= • 43362
-4= • 224810
-4= • 855850
+4= • 103663
+4= • 490881
 4= ‾
 4=3----------------------------------------------END
 4=
@@ -510,12 +508,13 @@
 4J
 4K4----------------------------------------------BEGIN
 4K • 0
-4K • 68444
-4K • 189315
-4K • 384022
-4K • 577711
-4K • 773028
-4K • 949186
+4K • 50435
+4K • 126224
+4K • 312428
+4K • 519136
+4K • 683432
+4K • 828987
+4K • 956775
 4K ‾
 4K3----------------------------------------------END
 4K
@@ -638,196 +637,434 @@
 W_5----------------------------------------------iBEGIN
 W_ • [0, 1]
 W_4----------------------------------------------iEND
-W_ • [2, 3]
 W_
-a`?Thread 13: ----------------------------------------------BEGIN
-a`Thread 23:  • alien
-a`Thread 23:  ‾
-a`>Thread 13: ----------------------------------------------END
-a`
-ab4----------------------------------------------BEGIN
-ab) ✖ Sequence contains too many elements
-ab3----------------------------------------------END
-ab
-ac4----------------------------------------------BEGIN
-ac# ✖ Sequence contains no elements
-ac3----------------------------------------------END
-ac
-ad4----------------------------------------------BEGIN
-ad • robin
-ad • chaffinch
-ad	 • jay
-adSide effect on completion
-ad ‾
-ad3----------------------------------------------END
-ad
-ae4----------------------------------------------BEGIN
-ae • robin
-ae • chaffinch
-ae	 • jay
-ae ‾
-ae3----------------------------------------------END
-ae
-af4----------------------------------------------BEGIN
-af • robin
-af • chaffinch
-af	 • jay
-af ‾
-afSide effect on finally
-af3----------------------------------------------END
-af
-ag4----------------------------------------------BEGIN
-ag • one thing
-ag ‾
-ag3----------------------------------------------END
-ag
-ah4----------------------------------------------BEGIN
-ah • one thing
-ah ‾
-ah3----------------------------------------------END
-ah
-ai5----------------------------------------------iBEGIN
-ai • 0
-ai • 1
-ai • 2
-ai • 3
-ai4----------------------------------------------iEND
-ai
-aj4----------------------------------------------BEGIN
-aj • things
-aj ‾
-aj3----------------------------------------------END
-aj
-ak4----------------------------------------------BEGIN
-akA • Timestamped(timestampMillis = 1400236726458, value = robin)
-akE • Timestamped(timestampMillis = 1400236726459, value = chaffinch)
-ak? • Timestamped(timestampMillis = 1400236726459, value = jay)
-ak ‾
-ak3----------------------------------------------END
-ak
-al4----------------------------------------------BEGIN
-alA • Timestamped(timestampMillis = 1400236726466, value = robin)
-alE • Timestamped(timestampMillis = 1400236726466, value = chaffinch)
-al? • Timestamped(timestampMillis = 1400236726466, value = jay)
-al ‾
-al3----------------------------------------------END
-al
-al4----------------------------------------------BEGIN
-alA • Timestamped(timestampMillis = 1400236726466, value = robin)
-alE • Timestamped(timestampMillis = 1400236726466, value = chaffinch)
-al? • Timestamped(timestampMillis = 1400236726466, value = jay)
-al ‾
-al3----------------------------------------------END
-al
-am5----------------------------------------------iBEGIN
-am • 0
-am • 1
-am • 2
-am • 3
-am4----------------------------------------------iEND
-am
-an4----------------------------------------------BEGIN
-an • 1
-an • 2
-an ‾
-anDisposing of resource
-an3----------------------------------------------END
-an
-ao4----------------------------------------------BEGIN
-ao4Side effect on error java.lang.Exception: Bad stuff
-ao ✖ Bad stuff
-ao3----------------------------------------------END
-ao
-ap4----------------------------------------------BEGIN
-ap8Side effect for [rx.Notification@4b01573c OnNext robin]
-ap • robin
-ap<Side effect for [rx.Notification@8d919a38 OnNext chaffinch]
-ap • chaffinch
-ap6Side effect for [rx.Notification@448887b4 OnNext jay]
-ap	 • jay
-ap7Side effect for [rx.Notification@750d1e3b OnCompleted]
-ap ‾
-ap3----------------------------------------------END
-ap
-aq?Thread 13: ----------------------------------------------BEGIN
-aqThread 13:  • robin
-aqThread 13:  • chaffinch
-aqThread 13:  • jay
-aqThread 13:  ‾
-aq>Thread 13: ----------------------------------------------END
-aq
-aq?Thread 13: ----------------------------------------------BEGIN
-aqThread 21:  • robin
-aqThread 21:  • chaffinch
-aqThread 21:  • jay
-aqThread 21:  ‾
-aq>Thread 13: ----------------------------------------------END
-aq
-aq?Thread 13: ----------------------------------------------BEGIN
-aqThread 24:  • robin
-aqThread 24:  • chaffinch
-aqThread 24:  • jay
-aqThread 24:  ‾
-aq>Thread 13: ----------------------------------------------END
-aq
-ar5----------------------------------------------iBEGIN
-ar7 • TimeInterval [intervalInMilliseconds=10, value=0]
-ar7 • TimeInterval [intervalInMilliseconds=11, value=1]
-ar7 • TimeInterval [intervalInMilliseconds=10, value=2]
-ar7 • TimeInterval [intervalInMilliseconds=10, value=3]
-ar7 • TimeInterval [intervalInMilliseconds=11, value=4]
-ar6 • TimeInterval [intervalInMilliseconds=8, value=5]
-ar7 • TimeInterval [intervalInMilliseconds=11, value=6]
-ar7 • TimeInterval [intervalInMilliseconds=10, value=7]
-ar7 • TimeInterval [intervalInMilliseconds=10, value=8]
-ar4----------------------------------------------iEND
-ar
-as4----------------------------------------------BEGIN
-as • rx.Observable@4b742027: 1
-as • rx.Observable@22c26d12: 2
-as  • rx.Observable@22c26d12: 10
-as • rx.Observable@5a39e3bd: 8
-as  • rx.Observable@22c26d12: 18
-as  • rx.Observable@5a39e3bd: 16
-as • rx.Observable@5516b64c: 7
-as • rx.Observable@d653dcd: 6
-as  • rx.Observable@5516b64c: 15
-as • rx.Observable@710387d1: 5
-as • rx.Observable@d653dcd: 14
-as  • rx.Observable@710387d1: 13
-as • rx.Observable@2e4d0818: 4
-as • rx.Observable@91a1ce1: 3
-as  • rx.Observable@2e4d0818: 12
-as  • rx.Observable@2e4d0818: 20
-as • rx.Observable@91a1ce1: 11
-as • rx.Observable@91a1ce1: 19
-as • rx.Observable@4b742027: 9
-as  • rx.Observable@4b742027: 17
-as ‾
-as3----------------------------------------------END
-as
-at4----------------------------------------------BEGIN
-at • robin
-at • chaffinch
-at	 • jay
-atSide effect on terminate
-at ‾
-at3----------------------------------------------END
-at
-au4----------------------------------------------BEGIN
-au- • [rx.Notification@4b01573c OnNext robin]
-au1 • [rx.Notification@8d919a38 OnNext chaffinch]
-au+ • [rx.Notification@448887b4 OnNext jay]
-au, • [rx.Notification@750d1e3b OnCompleted]
-au ‾
-au3----------------------------------------------END
-au
-av4----------------------------------------------BEGIN
-av) ✖ Sequence contains too many elements
-av3----------------------------------------------END
-av
-aw4----------------------------------------------BEGIN
-aw • default
-aw ‾
-aw3----------------------------------------------END
-aw
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+a`-1
+abunique
+aedefault
+afjust
+ag0
+ag1
+ag2
+ag3
+ahunique
+aieating
+aiher
+aifingers
+ailike
+aithey're
+aijust
+aianother
+aimeal
+ajdefault
+akmeal
+al0
+al2
+al4
+ameating
+an;[eating, her, fingers, like, they're, just, another, meal]
+apeating
+apher
+apfingers
+aplike
+apthey're
+apjust
+apanother
+apmeal
+aqeating
+aqher
+aqfingers
+aqlike
+aqthey're
+aqjust
+aqanother
+aqmeal
+asdefault
+ut?Thread 13: ----------------------------------------------BEGIN
+utThread 23:  • alien
+utThread 23:  ‾
+ut>Thread 13: ----------------------------------------------END
+ut
+uv4----------------------------------------------BEGIN
+uv) ✖ Sequence contains too many elements
+uv3----------------------------------------------END
+uv
+uw4----------------------------------------------BEGIN
+uw# ✖ Sequence contains no elements
+uw3----------------------------------------------END
+uw
+ux4----------------------------------------------BEGIN
+ux • robin
+ux • chaffinch
+ux	 • jay
+uxSide effect on completion
+ux ‾
+ux3----------------------------------------------END
+ux
+uy4----------------------------------------------BEGIN
+uy • robin
+uy • chaffinch
+uy	 • jay
+uy ‾
+uy3----------------------------------------------END
+uy
+uz4----------------------------------------------BEGIN
+uz • robin
+uz • chaffinch
+uz	 • jay
+uz ‾
+uzSide effect on finally
+uz3----------------------------------------------END
+uz
+u{4----------------------------------------------BEGIN
+u{ • one thing
+u{ ‾
+u{3----------------------------------------------END
+u{
+u|4----------------------------------------------BEGIN
+u| • one thing
+u| ‾
+u|3----------------------------------------------END
+u|
+u}5----------------------------------------------iBEGIN
+u} • 0
+u} • 1
+u} • 2
+u} • 3
+u}4----------------------------------------------iEND
+u}
+u~4----------------------------------------------BEGIN
+u~ • things
+u~ ‾
+u~3----------------------------------------------END
+u~
+u4----------------------------------------------BEGIN
+uA • Timestamped(timestampMillis = 1400242495833, value = robin)
+uE • Timestamped(timestampMillis = 1400242495833, value = chaffinch)
+u? • Timestamped(timestampMillis = 1400242495834, value = jay)
+u ‾
+u3----------------------------------------------END
+u
+u�4----------------------------------------------BEGIN
+u�A • Timestamped(timestampMillis = 1400242495841, value = robin)
+u�E • Timestamped(timestampMillis = 1400242495841, value = chaffinch)
+u�? • Timestamped(timestampMillis = 1400242495841, value = jay)
+u� ‾
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u�A • Timestamped(timestampMillis = 1400242495841, value = robin)
+u�E • Timestamped(timestampMillis = 1400242495841, value = chaffinch)
+u�? • Timestamped(timestampMillis = 1400242495841, value = jay)
+u� ‾
+u�3----------------------------------------------END
+u�
+u�5----------------------------------------------iBEGIN
+u� • 0
+u� • 1
+u� • 2
+u� • 3
+u�4----------------------------------------------iEND
+u�
+u�4----------------------------------------------BEGIN
+u� • 1
+u� • 2
+u� ‾
+u�Disposing of resource
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u�4Side effect on error java.lang.Exception: Bad stuff
+u� ✖ Bad stuff
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u�8Side effect for [rx.Notification@f3b4fba9 OnNext robin]
+u� • robin
+u�<Side effect for [rx.Notification@36453ea5 OnNext chaffinch]
+u� • chaffinch
+u�6Side effect for [rx.Notification@ed3c2c21 OnNext jay]
+u�	 • jay
+u�6Side effect for [rx.Notification@97890eb OnCompleted]
+u� ‾
+u�3----------------------------------------------END
+u�
+u�?Thread 13: ----------------------------------------------BEGIN
+u�Thread 13:  • robin
+u�Thread 13:  • chaffinch
+u�Thread 13:  • jay
+u�Thread 13:  ‾
+u�>Thread 13: ----------------------------------------------END
+u�
+u�?Thread 13: ----------------------------------------------BEGIN
+u�Thread 16:  • robin
+u�Thread 16:  • chaffinch
+u�Thread 16:  • jay
+u�Thread 16:  ‾
+u�>Thread 13: ----------------------------------------------END
+u�
+u�?Thread 13: ----------------------------------------------BEGIN
+u�Thread 24:  • robin
+u�Thread 24:  • chaffinch
+u�Thread 24:  • jay
+u�Thread 24:  ‾
+u�>Thread 13: ----------------------------------------------END
+u�
+u�5----------------------------------------------iBEGIN
+u�7 • TimeInterval [intervalInMilliseconds=10, value=0]
+u�7 • TimeInterval [intervalInMilliseconds=12, value=1]
+u�6 • TimeInterval [intervalInMilliseconds=8, value=2]
+u�7 • TimeInterval [intervalInMilliseconds=11, value=3]
+u�6 • TimeInterval [intervalInMilliseconds=9, value=4]
+u�7 • TimeInterval [intervalInMilliseconds=12, value=5]
+u�6 • TimeInterval [intervalInMilliseconds=8, value=6]
+u�7 • TimeInterval [intervalInMilliseconds=11, value=7]
+u�7 • TimeInterval [intervalInMilliseconds=10, value=8]
+u�4----------------------------------------------iEND
+u�
+u�4----------------------------------------------BEGIN
+u� • rx.Observable@531af15: 1
+u� • rx.Observable@5d368da5: 2
+u� • rx.Observable@5fa9e471: 3
+u� • rx.Observable@6b2d2436: 4
+u� • rx.Observable@66275af8: 5
+u� • rx.Observable@23fea444: 6
+u� • rx.Observable@50fb43fb: 7
+u� • rx.Observable@5896059f: 8
+u� • rx.Observable@531af15: 9
+u� • rx.Observable@531af15: 17
+u�  • rx.Observable@5896059f: 16
+u�  • rx.Observable@5d368da5: 10
+u�  • rx.Observable@5fa9e471: 11
+u�  • rx.Observable@5fa9e471: 19
+u�  • rx.Observable@6b2d2436: 12
+u�  • rx.Observable@6b2d2436: 20
+u�  • rx.Observable@5d368da5: 18
+u�  • rx.Observable@23fea444: 14
+u�  • rx.Observable@50fb43fb: 15
+u�  • rx.Observable@66275af8: 13
+u� ‾
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u� • robin
+u� • chaffinch
+u�	 • jay
+u�Side effect on terminate
+u� ‾
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u�- • [rx.Notification@f3b4fba9 OnNext robin]
+u�1 • [rx.Notification@36453ea5 OnNext chaffinch]
+u�+ • [rx.Notification@ed3c2c21 OnNext jay]
+u�+ • [rx.Notification@97890eb OnCompleted]
+u� ‾
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u�) ✖ Sequence contains too many elements
+u�3----------------------------------------------END
+u�
+u�4----------------------------------------------BEGIN
+u� • default
+u� ‾
+u�3----------------------------------------------END
+u�
