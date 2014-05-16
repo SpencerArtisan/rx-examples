@@ -1,11 +1,11 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.StringObservableTest" tests="5" failures="0" errors="0" timestamp="2014-05-16T13:44:40" hostname="localhost" time="0.045">
+<testsuite name="skw.rx.binding.StringObservableTest" tests="5" failures="0" errors="0" timestamp="2014-05-16T14:43:39" hostname="localhost" time="0.011">
   <properties/>
-  <testcase name="byLine" classname="skw.rx.binding.StringObservableTest" time="0.012"/>
-  <testcase name="stringConcat" classname="skw.rx.binding.StringObservableTest" time="0.006"/>
-  <testcase name="from" classname="skw.rx.binding.StringObservableTest" time="0.007"/>
-  <testcase name="join" classname="skw.rx.binding.StringObservableTest" time="0.009"/>
-  <testcase name="split" classname="skw.rx.binding.StringObservableTest" time="0.008"/>
+  <testcase name="byLine" classname="skw.rx.binding.StringObservableTest" time="0.005"/>
+  <testcase name="stringConcat" classname="skw.rx.binding.StringObservableTest" time="0.002"/>
+  <testcase name="from" classname="skw.rx.binding.StringObservableTest" time="0.001"/>
+  <testcase name="join" classname="skw.rx.binding.StringObservableTest" time="0.001"/>
+  <testcase name="split" classname="skw.rx.binding.StringObservableTest" time="0.001"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • 0:Canyon bro
  • 1:your life is quirked

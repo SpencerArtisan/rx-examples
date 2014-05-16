@@ -13,7 +13,6 @@ public class Dumper {
 		Subscription subscription = dumpObservable(observable, () -> "");
 		Thread.sleep(milliseconds);
 		subscription.unsubscribe();
-		System.out.println("----------------------------------------------iEND\r\n");
 	}
 	
 	public static void dump(Observable<?> observable) throws InterruptedException {
@@ -23,8 +22,6 @@ public class Dumper {
 	public static void dump(Observable<?> observable, Func0<String> prefix) throws InterruptedException {
 		System.out.println(prefix.call() + "----------------------------------------------BEGIN");
 		dumpObservable(observable, prefix);
-		Thread.sleep(5);
-		System.out.println(prefix.call() + "----------------------------------------------END\r\n");
 	}
 
 	public static void dumpWithThreadId(Observable<?> observable) throws InterruptedException {
@@ -32,7 +29,8 @@ public class Dumper {
 	}
 	
 	private static Subscription dumpObservable(Observable<?> observable, Func0<String> prefix) {
-		return observable.subscribe((value) -> dumpValue(value, prefix),
+		return observable.finallyDo(() -> System.out.println("----------------------------------------------END\r\n"))
+				.subscribe((value) -> dumpValue(value, prefix),
 							 (e) -> System.out.println(prefix.call() + " ✖ " + e.getMessage()),
 							 () -> System.out.println(prefix.call() + " ‾"));
 	}

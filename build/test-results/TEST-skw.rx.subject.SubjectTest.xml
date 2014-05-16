@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.subject.SubjectTest" tests="4" failures="0" errors="0" timestamp="2014-05-16T14:43:39" hostname="localhost" time="0.005">
+  <properties/>
+  <testcase name="publishSubject" classname="skw.rx.subject.SubjectTest" time="0.001"/>
+  <testcase name="replaySubject" classname="skw.rx.subject.SubjectTest" time="0.0"/>
+  <testcase name="asyncSubject" classname="skw.rx.subject.SubjectTest" time="0.0"/>
+  <testcase name="behaviourSubject" classname="skw.rx.subject.SubjectTest" time="0.002"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
+ • hello
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • hello
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • hello
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • world
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • world
+ ‾
+----------------------------------------------END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
