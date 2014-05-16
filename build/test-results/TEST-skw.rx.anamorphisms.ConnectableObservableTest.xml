@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.anamorphisms.ConnectableObservableTest" tests="4" failures="0" errors="0" timestamp="2014-05-16T10:38:45" hostname="localhost" time="0.071">
+  <properties/>
+  <testcase name="replay" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.043"/>
+  <testcase name="refCount" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.009"/>
+  <testcase name="publishLast" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.006"/>
+  <testcase name="connect" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.012"/>
+  <system-out><![CDATA[----------------------------------------------iBEGIN
+ • 1
+----------------------------------------------iEND
+
+----------------------------------------------iBEGIN
+ • 1
+ • 2
+ ‾
+----------------------------------------------iEND
+
+----------------------------------------------BEGIN
+ • suspicion
+ • notorious
+ • psycho
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+ • Seventh Seal
+ ‾
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+ • suspicion
+ • suspicion
+ • notorious
+ • notorious
+ • psycho
+ • psycho
+ ‾
+ ‾
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

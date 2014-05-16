@@ -2,17 +2,17 @@
 <html>
 <head>
 <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Test results - Class skw.rx.anamorphisms.CreatingObservablesTest</title>
+<title>Test results - Class skw.rx.anamorphisms.ConnectableObservableTest</title>
 <link href="css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="css/style.css" rel="stylesheet" type="text/css"/>
 <script src="js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class skw.rx.anamorphisms.CreatingObservablesTest</h1>
+<h1>Class skw.rx.anamorphisms.ConnectableObservableTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/skw.rx.anamorphisms.html">skw.rx.anamorphisms</a> &gt; CreatingObservablesTest</div>
+<a href="../packages/skw.rx.anamorphisms.html">skw.rx.anamorphisms</a> &gt; ConnectableObservableTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -22,7 +22,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">10</div>
+<div class="counter">4</div>
 <p>tests</p>
 </div>
 </td>
@@ -34,7 +34,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.262s</div>
+<div class="counter">0.070s</div>
 <p>duration</p>
 </div>
 </td>
@@ -71,53 +71,23 @@
 </tr>
 </thead>
 <tr>
-<td class="success">create</td>
-<td>0.008s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">empty</td>
-<td>0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">error</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">from</td>
-<td>0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">interval</td>
-<td>0.101s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">just</td>
-<td>0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">never</td>
-<td>0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">range</td>
-<td>0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">repeat</td>
+<td class="success">connect</td>
 <td>0.012s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">timer</td>
-<td>0.103s</td>
+<td class="success">publishLast</td>
+<td>0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">refCount</td>
+<td>0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">replay</td>
+<td>0.043s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -125,64 +95,42 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>----------------------------------------------BEGIN
- • wibble
- ✖ bad thing
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • ground hog day
- • ground hog day
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
+<pre>----------------------------------------------iBEGIN
  • 1
- • 2
- • 3
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • one more thing
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- ‾
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- ✖ bad thing
-----------------------------------------------END
-
-----------------------------------------------BEGIN
-----------------------------------------------END
-
-----------------------------------------------BEGIN
- • 1
- • 2
- • 3
- ‾
-----------------------------------------------END
-
-----------------------------------------------iBEGIN
- • 0
- ‾
 ----------------------------------------------iEND
 
 ----------------------------------------------iBEGIN
- • 0
  • 1
  • 2
- • 3
- • 4
- • 5
- • 6
- • 7
- • 8
+ ‾
 ----------------------------------------------iEND
 
+----------------------------------------------BEGIN
+ • suspicion
+ • notorious
+ • psycho
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+ • Seventh Seal
+ ‾
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+----------------------------------------------END
+
+ • suspicion
+ • suspicion
+ • notorious
+ • notorious
+ • psycho
+ • psycho
+ ‾
+ ‾
 </pre>
 </span>
 </div>

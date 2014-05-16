@@ -1,15 +1,15 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-15T16:52:33" hostname="localhost" time="0.126">
+<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-16T10:38:46" hostname="localhost" time="0.127">
   <properties/>
-  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
-  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.006"/>
+  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.009"/>
+  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
   <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
   <testcase name="map" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
-  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.008"/>
+  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.009"/>
   <testcase name="scan" classname="skw.rx.binding.TransformingObservablesTest" time="0.007"/>
-  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.017"/>
+  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.016"/>
   <testcase name="groupBy" classname="skw.rx.binding.TransformingObservablesTest" time="0.006"/>
-  <testcase name="bufferByTime" classname="skw.rx.binding.TransformingObservablesTest" time="0.056"/>
+  <testcase name="bufferByTime" classname="skw.rx.binding.TransformingObservablesTest" time="0.055"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • [Spencer Ward, Leon Jones, Mitchell Ward]
  • [Sue Ward, Camden Jones, Cynthia Jones]
@@ -65,6 +65,7 @@
 ----------------------------------------------iBEGIN
  • [0, 1]
 ----------------------------------------------iEND
+ • [2, 3]
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
