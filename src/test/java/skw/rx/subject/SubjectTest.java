@@ -21,13 +21,6 @@ import rx.subjects.ReplaySubject;
 import rx.util.async.Async;
 
 public class SubjectTest {
-	private Observable<String> villages;
-
-	@Before
-	public void before() {
-		villages = Observable.from("Malpas", "Binsted", "Brailes");
-	}
-
 	@Test
 	public void asyncSubject() throws Exception {
 		AsyncSubject<String> subject = AsyncSubject.create();
