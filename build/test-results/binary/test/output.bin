@@ -291,6 +291,7 @@
 #+ ‚Ä¢ 7
 #+ ‚Ä¢ 8
 #+ ‚Ä¢ 9
+#+ ‚Ä¢ 10
 #+ ‚Äæ
 #+4----------------------------------------------iEND
 #+
@@ -402,8 +403,9 @@
 4<3----------------------------------------------END
 4<
 4=4----------------------------------------------BEGIN
-4= ‚Ä¢ 103663
-4= ‚Ä¢ 490881
+4= ‚Ä¢ 68108
+4= ‚Ä¢ 300408
+4= ‚Ä¢ 859101
 4= ‚Äæ
 4=3----------------------------------------------END
 4=
@@ -508,13 +510,13 @@
 4J
 4K4----------------------------------------------BEGIN
 4K ‚Ä¢ 0
-4K ‚Ä¢ 50435
-4K ‚Ä¢ 126224
-4K ‚Ä¢ 312428
-4K ‚Ä¢ 519136
-4K ‚Ä¢ 683432
-4K ‚Ä¢ 828987
-4K ‚Ä¢ 956775
+4K ‚Ä¢ 29290
+4K ‚Ä¢ 101076
+4K ‚Ä¢ 256544
+4K ‚Ä¢ 431904
+4K ‚Ä¢ 615538
+4K ‚Ä¢ 773879
+4K ‚Ä¢ 913678
 4K ‚Äæ
 4K3----------------------------------------------END
 4K
@@ -583,488 +585,724 @@
 OU3----------------------------------------------END
 OU
 WV4----------------------------------------------BEGIN
-WV/ ‚Ä¢ [Spencer Ward, Leon Jones, Mitchell Ward]
-WV- ‚Ä¢ [Sue Ward, Camden Jones, Cynthia Jones]
-WV ‚Ä¢ [Bailey Jones, Mia Ward]
+WV ‚Ä¢ 0:Canyon bro
+WV ‚Ä¢ 1:your life is quirked
+WV% ‚Ä¢ 2:dream about the witch trials
+WV ‚Ä¢ 3:you get all too
+WV' ‚Ä¢ 4:lies peppered in your forecast
+WV$ ‚Ä¢ 5:Beneath the shady mezzanine
+WV( ‚Ä¢ 6:keep it when you wanna be loved
 WV ‚Äæ
 WV3----------------------------------------------END
 WV
 WX4----------------------------------------------BEGIN
-WX< |‚Üí‚Ä¢Spencer Ward‚Üí‚Ä¢Leon Jones‚Üí‚Ä¢Mitchell Ward‚Üí|
-WX: |‚Üí‚Ä¢Sue Ward‚Üí‚Ä¢Camden Jones‚Üí‚Ä¢Cynthia Jones‚Üí|
-WX' |‚Üí‚Ä¢Bailey Jones‚Üí‚Ä¢Mia Ward‚Üí|
+WXp ‚Ä¢ Pick out some Brazilian nuts For your engagement Check that expiration date, man It's later than you think
 WX ‚Äæ
 WX3----------------------------------------------END
 WX
 WY4----------------------------------------------BEGIN
-WY ‚Ä¢ Creep
-WY ‚Ä¢ Paranoid Android
-WY ‚Ä¢ King of Nails
-WY ‚Ä¢ Happy Man
+WY ‚Ä¢ Rotten dev
+WY ‚Ä¢ ice, I'll 
+WY ‚Ä¢ say it twi
+WY ‚Ä¢ ceI'm too 
+WY ‚Ä¢ much, I'm 
+WY ‚Ä¢ too much c
+WY ‚Ä¢ omforted h
+WY ‚Ä¢ ereCosts t
+WY ‚Ä¢ oo much to
+WY ‚Ä¢ o much, we
+WY ‚Ä¢ 'll leave 
+WY ‚Ä¢ youEverywh
+WY ‚Ä¢ ere eyes, 
+WY ‚Ä¢ nowhere to
+WY
+ ‚Ä¢  die
 WY ‚Äæ
 WY3----------------------------------------------END
 WY
 WZ4----------------------------------------------BEGIN
-WZ ‚Ä¢ Spencer Ward
-WZ ‚Ä¢ Mitchell Ward
-WZ ‚Ä¢ Sue Ward
+WZÅ ‚Ä¢ This is a song about lonely edward franklin ames, out of a job, confused. steadies himself as a taker. has his two children
 WZ ‚Äæ
 WZ3----------------------------------------------END
 WZ
 W[4----------------------------------------------BEGIN
-W[X ‚úñ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+W[ ‚Ä¢ I
+W[ ‚Ä¢ knitted
+W[
+ ‚Ä¢ them
+W[	 ‚Ä¢ for
+W[	 ‚Ä¢ you
+W[ ‚Ä¢ it
+W[	 ‚Ä¢ was
+W[ ‚Ä¢ a
+W[ ‚Ä¢ private,
+W[ ‚Ä¢ private
+W[
+ ‚Ä¢ gift
+W[	 ‚Ä¢ did
+W[	 ‚Ä¢ you
+W[
+ ‚Ä¢ tell
+W[
+ ‚Ä¢ your
+W[ ‚Ä¢ mother
+W[ ‚Ä¢ if
+W[	 ‚Ä¢ she
+W[ ‚Ä¢ hears
+W[ ‚Ä¢ about
+W[ ‚Ä¢ it
+W[ ‚Ä¢ she'll
+W[
+ ‚Ä¢ feel
+W[	 ‚Ä¢ bad
+W[ ‚Äæ
 W[3----------------------------------------------END
 W[
-W\4----------------------------------------------BEGIN
-W\ ‚Ä¢ Spencer
-W\ ‚Ä¢ Spencer,Mitchell
-W\ ‚Ä¢ Spencer,Mitchell,Sue
-W\ ‚Äæ
-W\3----------------------------------------------END
-W\
-W]4----------------------------------------------BEGIN
-W]7 |‚Üí‚Ä¢Grouped Observable‚Üí‚Ä¢Grouped Observable‚Üí|
-W]7 |‚Üí‚Ä¢Grouped Observable‚Üí‚Ä¢Grouped Observable‚Üí|
-W] ‚Äæ
-W]3----------------------------------------------END
-W]
-W^4----------------------------------------------BEGIN
-W^N |‚Üí‚Ä¢Leon Jones‚Üí‚Ä¢Camden Jones‚Üí‚Ä¢Cynthia Jones‚Üí‚Ä¢Bailey Jones‚Üí|
-W^ ‚Äæ
-W^H |‚Üí‚Ä¢Spencer Ward‚Üí‚Ä¢Mitchell Ward‚Üí‚Ä¢Sue Ward‚Üí‚Ä¢Mia Ward‚Üí|
-W^3----------------------------------------------END
-W^
-W_5----------------------------------------------iBEGIN
-W_ ‚Ä¢ [0, 1]
-W_4----------------------------------------------iEND
-W_
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-a`-1
-abunique
-aedefault
-afjust
-ag0
-ag1
-ag2
-ag3
-ahunique
-aieating
-aiher
-aifingers
-ailike
-aithey're
-aijust
-aianother
-aimeal
-ajdefault
-akmeal
-al0
-al2
-al4
-ameating
-an;[eating, her, fingers, like, they're, just, another, meal]
-apeating
-apher
-apfingers
-aplike
-apthey're
-apjust
-apanother
-apmeal
-aqeating
-aqher
-aqfingers
-aqlike
-aqthey're
-aqjust
-aqanother
-aqmeal
-asdefault
-ut?Thread 13: ----------------------------------------------BEGIN
-utThread 23:  ‚Ä¢ alien
-utThread 23:  ‚Äæ
-ut>Thread 13: ----------------------------------------------END
-ut
-uv4----------------------------------------------BEGIN
-uv) ‚úñ Sequence contains too many elements
-uv3----------------------------------------------END
-uv
-uw4----------------------------------------------BEGIN
-uw# ‚úñ Sequence contains no elements
-uw3----------------------------------------------END
-uw
-ux4----------------------------------------------BEGIN
-ux ‚Ä¢ robin
-ux ‚Ä¢ chaffinch
-ux	 ‚Ä¢ jay
-uxSide effect on completion
-ux ‚Äæ
-ux3----------------------------------------------END
-ux
-uy4----------------------------------------------BEGIN
-uy ‚Ä¢ robin
-uy ‚Ä¢ chaffinch
-uy	 ‚Ä¢ jay
-uy ‚Äæ
-uy3----------------------------------------------END
-uy
-uz4----------------------------------------------BEGIN
-uz ‚Ä¢ robin
-uz ‚Ä¢ chaffinch
-uz	 ‚Ä¢ jay
-uz ‚Äæ
-uzSide effect on finally
-uz3----------------------------------------------END
-uz
-u{4----------------------------------------------BEGIN
-u{ ‚Ä¢ one thing
-u{ ‚Äæ
-u{3----------------------------------------------END
-u{
-u|4----------------------------------------------BEGIN
-u| ‚Ä¢ one thing
-u| ‚Äæ
-u|3----------------------------------------------END
-u|
-u}5----------------------------------------------iBEGIN
-u} ‚Ä¢ 0
-u} ‚Ä¢ 1
-u} ‚Ä¢ 2
-u} ‚Ä¢ 3
-u}4----------------------------------------------iEND
-u}
-u~4----------------------------------------------BEGIN
-u~ ‚Ä¢ things
-u~ ‚Äæ
-u~3----------------------------------------------END
-u~
-u4----------------------------------------------BEGIN
-uA ‚Ä¢ Timestamped(timestampMillis = 1400242495833, value = robin)
-uE ‚Ä¢ Timestamped(timestampMillis = 1400242495833, value = chaffinch)
-u? ‚Ä¢ Timestamped(timestampMillis = 1400242495834, value = jay)
-u ‚Äæ
-u3----------------------------------------------END
-u
-uÄ4----------------------------------------------BEGIN
-uÄA ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = robin)
-uÄE ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = chaffinch)
-uÄ? ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = jay)
-uÄ ‚Äæ
-uÄ3----------------------------------------------END
-uÄ
-uÄ4----------------------------------------------BEGIN
-uÄA ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = robin)
-uÄE ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = chaffinch)
-uÄ? ‚Ä¢ Timestamped(timestampMillis = 1400242495841, value = jay)
-uÄ ‚Äæ
-uÄ3----------------------------------------------END
-uÄ
-uÅ5----------------------------------------------iBEGIN
-uÅ ‚Ä¢ 0
-uÅ ‚Ä¢ 1
-uÅ ‚Ä¢ 2
-uÅ ‚Ä¢ 3
-uÅ4----------------------------------------------iEND
-uÅ
-uÇ4----------------------------------------------BEGIN
-uÇ ‚Ä¢ 1
-uÇ ‚Ä¢ 2
-uÇ ‚Äæ
-uÇDisposing of resource
-uÇ3----------------------------------------------END
-uÇ
-uÉ4----------------------------------------------BEGIN
-uÉ4Side effect on error java.lang.Exception: Bad stuff
-uÉ ‚úñ Bad stuff
-uÉ3----------------------------------------------END
-uÉ
-uÑ4----------------------------------------------BEGIN
-uÑ8Side effect for [rx.Notification@f3b4fba9 OnNext robin]
-uÑ ‚Ä¢ robin
-uÑ<Side effect for [rx.Notification@36453ea5 OnNext chaffinch]
-uÑ ‚Ä¢ chaffinch
-uÑ6Side effect for [rx.Notification@ed3c2c21 OnNext jay]
-uÑ	 ‚Ä¢ jay
-uÑ6Side effect for [rx.Notification@97890eb OnCompleted]
-uÑ ‚Äæ
-uÑ3----------------------------------------------END
-uÑ
-uÖ?Thread 13: ----------------------------------------------BEGIN
-uÖThread 13:  ‚Ä¢ robin
-uÖThread 13:  ‚Ä¢ chaffinch
-uÖThread 13:  ‚Ä¢ jay
-uÖThread 13:  ‚Äæ
-uÖ>Thread 13: ----------------------------------------------END
-uÖ
-uÖ?Thread 13: ----------------------------------------------BEGIN
-uÖThread 16:  ‚Ä¢ robin
-uÖThread 16:  ‚Ä¢ chaffinch
-uÖThread 16:  ‚Ä¢ jay
-uÖThread 16:  ‚Äæ
-uÖ>Thread 13: ----------------------------------------------END
-uÖ
-uÖ?Thread 13: ----------------------------------------------BEGIN
-uÖThread 24:  ‚Ä¢ robin
-uÖThread 24:  ‚Ä¢ chaffinch
-uÖThread 24:  ‚Ä¢ jay
-uÖThread 24:  ‚Äæ
-uÖ>Thread 13: ----------------------------------------------END
-uÖ
-uÜ5----------------------------------------------iBEGIN
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=0]
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=12, value=1]
-uÜ6 ‚Ä¢ TimeInterval [intervalInMilliseconds=8, value=2]
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=11, value=3]
-uÜ6 ‚Ä¢ TimeInterval [intervalInMilliseconds=9, value=4]
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=12, value=5]
-uÜ6 ‚Ä¢ TimeInterval [intervalInMilliseconds=8, value=6]
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=11, value=7]
-uÜ7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=8]
-uÜ4----------------------------------------------iEND
-uÜ
-uá4----------------------------------------------BEGIN
-uá ‚Ä¢ rx.Observable@531af15: 1
-uá ‚Ä¢ rx.Observable@5d368da5: 2
-uá ‚Ä¢ rx.Observable@5fa9e471: 3
-uá ‚Ä¢ rx.Observable@6b2d2436: 4
-uá ‚Ä¢ rx.Observable@66275af8: 5
-uá ‚Ä¢ rx.Observable@23fea444: 6
-uá ‚Ä¢ rx.Observable@50fb43fb: 7
-uá ‚Ä¢ rx.Observable@5896059f: 8
-uá ‚Ä¢ rx.Observable@531af15: 9
-uá ‚Ä¢ rx.Observable@531af15: 17
-uá  ‚Ä¢ rx.Observable@5896059f: 16
-uá  ‚Ä¢ rx.Observable@5d368da5: 10
-uá  ‚Ä¢ rx.Observable@5fa9e471: 11
-uá  ‚Ä¢ rx.Observable@5fa9e471: 19
-uá  ‚Ä¢ rx.Observable@6b2d2436: 12
-uá  ‚Ä¢ rx.Observable@6b2d2436: 20
-uá  ‚Ä¢ rx.Observable@5d368da5: 18
-uá  ‚Ä¢ rx.Observable@23fea444: 14
-uá  ‚Ä¢ rx.Observable@50fb43fb: 15
-uá  ‚Ä¢ rx.Observable@66275af8: 13
-uá ‚Äæ
-uá3----------------------------------------------END
-uá
-uà4----------------------------------------------BEGIN
-uà ‚Ä¢ robin
-uà ‚Ä¢ chaffinch
-uà	 ‚Ä¢ jay
-uàSide effect on terminate
-uà ‚Äæ
-uà3----------------------------------------------END
-uà
-uâ4----------------------------------------------BEGIN
-uâ- ‚Ä¢ [rx.Notification@f3b4fba9 OnNext robin]
-uâ1 ‚Ä¢ [rx.Notification@36453ea5 OnNext chaffinch]
-uâ+ ‚Ä¢ [rx.Notification@ed3c2c21 OnNext jay]
-uâ+ ‚Ä¢ [rx.Notification@97890eb OnCompleted]
-uâ ‚Äæ
-uâ3----------------------------------------------END
-uâ
-uä4----------------------------------------------BEGIN
-uä) ‚úñ Sequence contains too many elements
-uä3----------------------------------------------END
-uä
-uã4----------------------------------------------BEGIN
-uã ‚Ä¢ default
-uã ‚Äæ
-uã3----------------------------------------------END
-uã
+]\4----------------------------------------------BEGIN
+]\/ ‚Ä¢ [Spencer Ward, Leon Jones, Mitchell Ward]
+]\- ‚Ä¢ [Sue Ward, Camden Jones, Cynthia Jones]
+]\ ‚Ä¢ [Bailey Jones, Mia Ward]
+]\ ‚Äæ
+]\3----------------------------------------------END
+]\
+]^4----------------------------------------------BEGIN
+]^< |‚Üí‚Ä¢Spencer Ward‚Üí‚Ä¢Leon Jones‚Üí‚Ä¢Mitchell Ward‚Üí|
+]^: |‚Üí‚Ä¢Sue Ward‚Üí‚Ä¢Camden Jones‚Üí‚Ä¢Cynthia Jones‚Üí|
+]^' |‚Üí‚Ä¢Bailey Jones‚Üí‚Ä¢Mia Ward‚Üí|
+]^ ‚Äæ
+]^3----------------------------------------------END
+]^
+]_4----------------------------------------------BEGIN
+]_ ‚Ä¢ Creep
+]_ ‚Ä¢ Paranoid Android
+]_ ‚Ä¢ King of Nails
+]_ ‚Ä¢ Happy Man
+]_ ‚Äæ
+]_3----------------------------------------------END
+]_
+]`4----------------------------------------------BEGIN
+]` ‚Ä¢ Spencer Ward
+]` ‚Ä¢ Mitchell Ward
+]` ‚Ä¢ Sue Ward
+]` ‚Äæ
+]`3----------------------------------------------END
+]`
+]a4----------------------------------------------BEGIN
+]aX ‚úñ Cannot cast java.lang.String to skw.rx.binding.TransformingObservablesTest$1Turnip
+]a3----------------------------------------------END
+]a
+]b4----------------------------------------------BEGIN
+]b ‚Ä¢ Spencer
+]b ‚Ä¢ Spencer,Mitchell
+]b ‚Ä¢ Spencer,Mitchell,Sue
+]b ‚Äæ
+]b3----------------------------------------------END
+]b
+]c4----------------------------------------------BEGIN
+]c7 |‚Üí‚Ä¢Grouped Observable‚Üí‚Ä¢Grouped Observable‚Üí|
+]c7 |‚Üí‚Ä¢Grouped Observable‚Üí‚Ä¢Grouped Observable‚Üí|
+]c ‚Äæ
+]c3----------------------------------------------END
+]c
+]d4----------------------------------------------BEGIN
+]dN |‚Üí‚Ä¢Leon Jones‚Üí‚Ä¢Camden Jones‚Üí‚Ä¢Cynthia Jones‚Üí‚Ä¢Bailey Jones‚Üí|
+]d ‚Äæ
+]dH |‚Üí‚Ä¢Spencer Ward‚Üí‚Ä¢Mitchell Ward‚Üí‚Ä¢Sue Ward‚Üí‚Ä¢Mia Ward‚Üí|
+]d3----------------------------------------------END
+]d
+]e5----------------------------------------------iBEGIN
+]e ‚Ä¢ [0, 1]
+]e ‚Ä¢ [2, 3]
+]e4----------------------------------------------iEND
+]e
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf-1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+gf1
+ghunique
+gkdefault
+gljust
+gm0
+gm1
+gm2
+gm3
+gnunique
+goeating
+goher
+gofingers
+golike
+gothey're
+gojust
+goanother
+gomeal
+gpdefault
+gqmeal
+gr0
+gr2
+gr4
+gseating
+gt;[eating, her, fingers, like, they're, just, another, meal]
+gveating
+gvher
+gvfingers
+gvlike
+gvthey're
+gvjust
+gvanother
+gvmeal
+gweating
+gwher
+gwfingers
+gwlike
+gwthey're
+gwjust
+gwanother
+gwmeal
+gydefault
+{z?Thread 13: ----------------------------------------------BEGIN
+{zThread 23:  ‚Ä¢ alien
+{zThread 23:  ‚Äæ
+{z>Thread 13: ----------------------------------------------END
+{z
+{|4----------------------------------------------BEGIN
+{|) ‚úñ Sequence contains too many elements
+{|3----------------------------------------------END
+{|
+{}4----------------------------------------------BEGIN
+{}# ‚úñ Sequence contains no elements
+{}3----------------------------------------------END
+{}
+{~4----------------------------------------------BEGIN
+{~ ‚Ä¢ robin
+{~ ‚Ä¢ chaffinch
+{~	 ‚Ä¢ jay
+{~Side effect on completion
+{~ ‚Äæ
+{~3----------------------------------------------END
+{~
+{4----------------------------------------------BEGIN
+{ ‚Ä¢ robin
+{ ‚Ä¢ chaffinch
+{	 ‚Ä¢ jay
+{ ‚Äæ
+{3----------------------------------------------END
+{
+{Ä4----------------------------------------------BEGIN
+{Ä ‚Ä¢ robin
+{Ä ‚Ä¢ chaffinch
+{Ä	 ‚Ä¢ jay
+{Ä ‚Äæ
+{ÄSide effect on finally
+{Ä3----------------------------------------------END
+{Ä
+{Å4----------------------------------------------BEGIN
+{Å ‚Ä¢ one thing
+{Å ‚Äæ
+{Å3----------------------------------------------END
+{Å
+{Ç4----------------------------------------------BEGIN
+{Ç ‚Ä¢ one thing
+{Ç ‚Äæ
+{Ç3----------------------------------------------END
+{Ç
+{É5----------------------------------------------iBEGIN
+{É ‚Ä¢ 0
+{É ‚Ä¢ 1
+{É ‚Ä¢ 2
+{É ‚Ä¢ 3
+{É4----------------------------------------------iEND
+{É
+{Ñ4----------------------------------------------BEGIN
+{Ñ ‚Ä¢ things
+{Ñ ‚Äæ
+{Ñ3----------------------------------------------END
+{Ñ
+{Ö4----------------------------------------------BEGIN
+{ÖA ‚Ä¢ Timestamped(timestampMillis = 1400247880751, value = robin)
+{ÖE ‚Ä¢ Timestamped(timestampMillis = 1400247880751, value = chaffinch)
+{Ö? ‚Ä¢ Timestamped(timestampMillis = 1400247880751, value = jay)
+{Ö ‚Äæ
+{Ö3----------------------------------------------END
+{Ö
+{Ü4----------------------------------------------BEGIN
+{ÜA ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = robin)
+{ÜE ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = chaffinch)
+{Ü? ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = jay)
+{Ü ‚Äæ
+{Ü3----------------------------------------------END
+{Ü
+{Ü4----------------------------------------------BEGIN
+{ÜA ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = robin)
+{ÜE ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = chaffinch)
+{Ü? ‚Ä¢ Timestamped(timestampMillis = 1400247880759, value = jay)
+{Ü ‚Äæ
+{Ü3----------------------------------------------END
+{Ü
+{á5----------------------------------------------iBEGIN
+{á ‚Ä¢ 0
+{á ‚Ä¢ 1
+{á ‚Ä¢ 2
+{á ‚Ä¢ 3
+{á4----------------------------------------------iEND
+{á
+{à4----------------------------------------------BEGIN
+{à ‚Ä¢ 1
+{à ‚Ä¢ 2
+{à ‚Äæ
+{àDisposing of resource
+{à3----------------------------------------------END
+{à
+{â4----------------------------------------------BEGIN
+{â4Side effect on error java.lang.Exception: Bad stuff
+{â ‚úñ Bad stuff
+{â3----------------------------------------------END
+{â
+{ä4----------------------------------------------BEGIN
+{ä8Side effect for [rx.Notification@ef66b708 OnNext robin]
+{ä ‚Ä¢ robin
+{ä<Side effect for [rx.Notification@31f6fa04 OnNext chaffinch]
+{ä ‚Ä¢ chaffinch
+{ä6Side effect for [rx.Notification@e8ede780 OnNext jay]
+{ä	 ‚Ä¢ jay
+{ä7Side effect for [rx.Notification@392f3ea2 OnCompleted]
+{ä ‚Äæ
+{ä3----------------------------------------------END
+{ä
+{ã?Thread 13: ----------------------------------------------BEGIN
+{ãThread 13:  ‚Ä¢ robin
+{ãThread 13:  ‚Ä¢ chaffinch
+{ãThread 13:  ‚Ä¢ jay
+{ãThread 13:  ‚Äæ
+{ã>Thread 13: ----------------------------------------------END
+{ã
+{ã?Thread 13: ----------------------------------------------BEGIN
+{ãThread 16:  ‚Ä¢ robin
+{ãThread 16:  ‚Ä¢ chaffinch
+{ãThread 16:  ‚Ä¢ jay
+{ãThread 16:  ‚Äæ
+{ã>Thread 13: ----------------------------------------------END
+{ã
+{ã?Thread 13: ----------------------------------------------BEGIN
+{ãThread 24:  ‚Ä¢ robin
+{ãThread 24:  ‚Ä¢ chaffinch
+{ãThread 24:  ‚Ä¢ jay
+{ãThread 24:  ‚Äæ
+{ã>Thread 13: ----------------------------------------------END
+{ã
+{å5----------------------------------------------iBEGIN
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=11, value=0]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=1]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=2]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=3]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=4]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=5]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=6]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=7]
+{å7 ‚Ä¢ TimeInterval [intervalInMilliseconds=10, value=8]
+{å4----------------------------------------------iEND
+{å
+{ç4----------------------------------------------BEGIN
+{ç ‚Ä¢ rx.Observable@704faf15: 1
+{ç ‚Ä¢ rx.Observable@51b55cbc: 2
+{ç ‚Ä¢ rx.Observable@1d1d0354: 7
+{ç  ‚Ä¢ rx.Observable@51b55cbc: 10
+{ç ‚Ä¢ rx.Observable@37b7124c: 8
+{ç  ‚Ä¢ rx.Observable@51b55cbc: 18
+{ç  ‚Ä¢ rx.Observable@1d1d0354: 15
+{ç  ‚Ä¢ rx.Observable@37b7124c: 16
+{ç ‚Ä¢ rx.Observable@58e49543: 6
+{ç ‚Ä¢ rx.Observable@5bc411dc: 5
+{ç  ‚Ä¢ rx.Observable@58e49543: 14
+{ç  ‚Ä¢ rx.Observable@5bc411dc: 13
+{ç ‚Ä¢ rx.Observable@29cd3192: 4
+{ç  ‚Ä¢ rx.Observable@29cd3192: 12
+{ç ‚Ä¢ rx.Observable@77352e4: 3
+{ç  ‚Ä¢ rx.Observable@29cd3192: 20
+{ç ‚Ä¢ rx.Observable@77352e4: 11
+{ç ‚Ä¢ rx.Observable@77352e4: 19
+{ç ‚Ä¢ rx.Observable@704faf15: 9
+{ç  ‚Ä¢ rx.Observable@704faf15: 17
+{ç ‚Äæ
+{ç3----------------------------------------------END
+{ç
+{é4----------------------------------------------BEGIN
+{é ‚Ä¢ robin
+{é ‚Ä¢ chaffinch
+{é	 ‚Ä¢ jay
+{éSide effect on terminate
+{é ‚Äæ
+{é3----------------------------------------------END
+{é
+{è4----------------------------------------------BEGIN
+{è- ‚Ä¢ [rx.Notification@ef66b708 OnNext robin]
+{è1 ‚Ä¢ [rx.Notification@31f6fa04 OnNext chaffinch]
+{è+ ‚Ä¢ [rx.Notification@e8ede780 OnNext jay]
+{è, ‚Ä¢ [rx.Notification@392f3ea2 OnCompleted]
+{è ‚Äæ
+{è3----------------------------------------------END
+{è
+{ê4----------------------------------------------BEGIN
+{ê) ‚úñ Sequence contains too many elements
+{ê3----------------------------------------------END
+{ê
+{ë4----------------------------------------------BEGIN
+{ë ‚Ä¢ default
+{ë ‚Äæ
+{ë3----------------------------------------------END
+{ë

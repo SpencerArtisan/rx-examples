@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="skw.rx.binding.StringObservableTest" tests="5" failures="0" errors="0" timestamp="2014-05-16T13:44:40" hostname="localhost" time="0.045">
+  <properties/>
+  <testcase name="byLine" classname="skw.rx.binding.StringObservableTest" time="0.012"/>
+  <testcase name="stringConcat" classname="skw.rx.binding.StringObservableTest" time="0.006"/>
+  <testcase name="from" classname="skw.rx.binding.StringObservableTest" time="0.007"/>
+  <testcase name="join" classname="skw.rx.binding.StringObservableTest" time="0.009"/>
+  <testcase name="split" classname="skw.rx.binding.StringObservableTest" time="0.008"/>
+  <system-out><![CDATA[----------------------------------------------BEGIN
+ • 0:Canyon bro
+ • 1:your life is quirked
+ • 2:dream about the witch trials
+ • 3:you get all too
+ • 4:lies peppered in your forecast
+ • 5:Beneath the shady mezzanine
+ • 6:keep it when you wanna be loved
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • Pick out some Brazilian nuts For your engagement Check that expiration date, man It's later than you think
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • Rotten dev
+ • ice, I'll 
+ • say it twi
+ • ceI'm too 
+ • much, I'm 
+ • too much c
+ • omforted h
+ • ereCosts t
+ • oo much to
+ • o much, we
+ • 'll leave 
+ • youEverywh
+ • ere eyes, 
+ • nowhere to
+ •  die
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • This is a song about lonely edward franklin ames, out of a job, confused. steadies himself as a taker. has his two children
+ ‾
+----------------------------------------------END
+
+----------------------------------------------BEGIN
+ • I
+ • knitted
+ • them
+ • for
+ • you
+ • it
+ • was
+ • a
+ • private,
+ • private
+ • gift
+ • did
+ • you
+ • tell
+ • your
+ • mother
+ • if
+ • she
+ • hears
+ • about
+ • it
+ • she'll
+ • feel
+ • bad
+ ‾
+----------------------------------------------END
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

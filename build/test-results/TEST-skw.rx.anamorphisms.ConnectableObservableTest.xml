@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.anamorphisms.ConnectableObservableTest" tests="4" failures="0" errors="0" timestamp="2014-05-16T12:14:54" hostname="localhost" time="0.067">
+<testsuite name="skw.rx.anamorphisms.ConnectableObservableTest" tests="4" failures="0" errors="0" timestamp="2014-05-16T13:44:39" hostname="localhost" time="0.073">
   <properties/>
-  <testcase name="replay" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.04"/>
-  <testcase name="refCount" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.008"/>
-  <testcase name="publishLast" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.006"/>
+  <testcase name="replay" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.044"/>
+  <testcase name="refCount" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.009"/>
+  <testcase name="publishLast" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.007"/>
   <testcase name="connect" classname="skw.rx.anamorphisms.ConnectableObservableTest" time="0.012"/>
   <system-out><![CDATA[----------------------------------------------iBEGIN
  • 1
