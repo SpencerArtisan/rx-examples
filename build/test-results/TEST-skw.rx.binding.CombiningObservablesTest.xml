@@ -1,15 +1,15 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.CombiningObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-16T14:51:21" hostname="localhost" time="0.045">
+<testsuite name="skw.rx.binding.CombiningObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-17T09:15:15" hostname="localhost" time="0.054">
   <properties/>
-  <testcase name="startWith" classname="skw.rx.binding.CombiningObservablesTest" time="0.005"/>
-  <testcase name="mergeWithListOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.002"/>
-  <testcase name="zipWithObservableOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.009"/>
-  <testcase name="zip" classname="skw.rx.binding.CombiningObservablesTest" time="0.004"/>
-  <testcase name="parallelMerge" classname="skw.rx.binding.CombiningObservablesTest" time="0.011"/>
-  <testcase name="switchOnNext" classname="skw.rx.binding.CombiningObservablesTest" time="0.002"/>
+  <testcase name="startWith" classname="skw.rx.binding.CombiningObservablesTest" time="0.009"/>
+  <testcase name="mergeWithListOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.003"/>
+  <testcase name="zipWithObservableOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.012"/>
+  <testcase name="zip" classname="skw.rx.binding.CombiningObservablesTest" time="0.003"/>
+  <testcase name="parallelMerge" classname="skw.rx.binding.CombiningObservablesTest" time="0.01"/>
+  <testcase name="switchOnNext" classname="skw.rx.binding.CombiningObservablesTest" time="0.003"/>
   <testcase name="mergeWithObservableOfObservables" classname="skw.rx.binding.CombiningObservablesTest" time="0.001"/>
-  <testcase name="combineLatest" classname="skw.rx.binding.CombiningObservablesTest" time="0.004"/>
-  <testcase name="mergeDelayError" classname="skw.rx.binding.CombiningObservablesTest" time="0.003"/>
+  <testcase name="combineLatest" classname="skw.rx.binding.CombiningObservablesTest" time="0.006"/>
+  <testcase name="mergeDelayError" classname="skw.rx.binding.CombiningObservablesTest" time="0.004"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • always
  • start

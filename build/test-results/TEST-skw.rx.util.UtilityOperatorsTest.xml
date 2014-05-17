@@ -1,26 +1,26 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.util.UtilityOperatorsTest" tests="23" failures="0" errors="0" timestamp="2014-05-16T14:51:21" hostname="localhost" time="0.347">
+<testsuite name="skw.rx.util.UtilityOperatorsTest" tests="23" failures="0" errors="0" timestamp="2014-05-17T09:15:15" hostname="localhost" time="0.343">
   <properties/>
-  <testcase name="observeOn" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
+  <testcase name="observeOn" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="singleWhenMany" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="singleWhenZero" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="doOnCompleted" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
   <testcase name="dematerialize" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
-  <testcase name="doOnFinally" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
+  <testcase name="doOnFinally" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="singleOrDefaultWhenOne" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="singleWhenOne" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="delaySubscription" classname="skw.rx.util.UtilityOperatorsTest" time="0.103"/>
   <testcase name="singleByPredicate" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
-  <testcase name="timestamp" classname="skw.rx.util.UtilityOperatorsTest" time="0.003"/>
+  <testcase name="timestamp" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
   <testcase name="cache" classname="skw.rx.util.UtilityOperatorsTest" time="0.013"/>
   <testcase name="delay" classname="skw.rx.util.UtilityOperatorsTest" time="0.101"/>
   <testcase name="using" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
-  <testcase name="doOnError" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
-  <testcase name="doOnEach" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
-  <testcase name="subscribeOn" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
-  <testcase name="timeInterval" classname="skw.rx.util.UtilityOperatorsTest" time="0.101"/>
-  <testcase name="parallel" classname="skw.rx.util.UtilityOperatorsTest" time="0.004"/>
-  <testcase name="doOnTerminate" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
+  <testcase name="doOnError" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
+  <testcase name="doOnEach" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
+  <testcase name="subscribeOn" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
+  <testcase name="timeInterval" classname="skw.rx.util.UtilityOperatorsTest" time="0.102"/>
+  <testcase name="parallel" classname="skw.rx.util.UtilityOperatorsTest" time="0.005"/>
+  <testcase name="doOnTerminate" classname="skw.rx.util.UtilityOperatorsTest" time="0.002"/>
   <testcase name="materialize" classname="skw.rx.util.UtilityOperatorsTest" time="0.001"/>
   <testcase name="singleOrDefaultWhenMany" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
   <testcase name="singleOrDefaultWhenZero" classname="skw.rx.util.UtilityOperatorsTest" time="0.0"/>
@@ -81,23 +81,23 @@ Side effect on finally
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400251881890, value = robin)
- • Timestamped(timestampMillis = 1400251881891, value = chaffinch)
- • Timestamped(timestampMillis = 1400251881891, value = jay)
+ • Timestamped(timestampMillis = 1400318115842, value = robin)
+ • Timestamped(timestampMillis = 1400318115842, value = chaffinch)
+ • Timestamped(timestampMillis = 1400318115842, value = jay)
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400251881892, value = robin)
- • Timestamped(timestampMillis = 1400251881892, value = chaffinch)
- • Timestamped(timestampMillis = 1400251881892, value = jay)
+ • Timestamped(timestampMillis = 1400318115844, value = robin)
+ • Timestamped(timestampMillis = 1400318115844, value = chaffinch)
+ • Timestamped(timestampMillis = 1400318115844, value = jay)
  ‾
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • Timestamped(timestampMillis = 1400251881892, value = robin)
- • Timestamped(timestampMillis = 1400251881892, value = chaffinch)
- • Timestamped(timestampMillis = 1400251881892, value = jay)
+ • Timestamped(timestampMillis = 1400318115844, value = robin)
+ • Timestamped(timestampMillis = 1400318115844, value = chaffinch)
+ • Timestamped(timestampMillis = 1400318115844, value = jay)
  ‾
 ----------------------------------------------END
 
@@ -106,7 +106,6 @@ Side effect on finally
  • 1
  • 2
  • 3
- • 4
 ----------------------------------------------BEGIN
  • 1
  • 2
@@ -120,13 +119,13 @@ Side effect on error java.lang.Exception: Bad stuff
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
-Side effect for [rx.Notification@4139b41d OnNext robin]
+Side effect for [rx.Notification@fe0cb2db OnNext robin]
  • robin
-Side effect for [rx.Notification@83c9f719 OnNext chaffinch]
+Side effect for [rx.Notification@409cf5d7 OnNext chaffinch]
  • chaffinch
-Side effect for [rx.Notification@3ac0e495 OnNext jay]
+Side effect for [rx.Notification@f793e353 OnNext jay]
  • jay
-Side effect for [rx.Notification@471186f0 OnCompleted]
+Side effect for [rx.Notification@7103a8f0 OnCompleted]
  ‾
 ----------------------------------------------END
 
@@ -152,36 +151,37 @@ Thread 24:  ‾
 ----------------------------------------------END
 
 ----------------------------------------------iBEGIN
- • TimeInterval [intervalInMilliseconds=10, value=0]
- • TimeInterval [intervalInMilliseconds=11, value=1]
- • TimeInterval [intervalInMilliseconds=10, value=2]
- • TimeInterval [intervalInMilliseconds=10, value=3]
+ • TimeInterval [intervalInMilliseconds=11, value=0]
+ • TimeInterval [intervalInMilliseconds=9, value=1]
+ • TimeInterval [intervalInMilliseconds=12, value=2]
+ • TimeInterval [intervalInMilliseconds=9, value=3]
  • TimeInterval [intervalInMilliseconds=10, value=4]
  • TimeInterval [intervalInMilliseconds=10, value=5]
  • TimeInterval [intervalInMilliseconds=9, value=6]
  • TimeInterval [intervalInMilliseconds=11, value=7]
- • TimeInterval [intervalInMilliseconds=10, value=8]
+ • TimeInterval [intervalInMilliseconds=9, value=8]
+ • TimeInterval [intervalInMilliseconds=11, value=9]
 ----------------------------------------------BEGIN
- • rx.Observable@28137846: 1
- • rx.Observable@710387d1: 2
- • rx.Observable@2a019a3: 8
- • rx.Observable@1b4d2440: 7
- • rx.Observable@710387d1: 10
- • rx.Observable@2a019a3: 16
- • rx.Observable@1b4d2440: 15
- • rx.Observable@710387d1: 18
- • rx.Observable@71b92006: 6
- • rx.Observable@3565aba0: 5
- • rx.Observable@71b92006: 14
- • rx.Observable@3565aba0: 13
- • rx.Observable@45c39279: 4
- • rx.Observable@d653dcd: 3
- • rx.Observable@45c39279: 12
- • rx.Observable@45c39279: 20
- • rx.Observable@d653dcd: 11
- • rx.Observable@d653dcd: 19
- • rx.Observable@28137846: 9
- • rx.Observable@28137846: 17
+ • rx.Observable@18861a8f: 1
+ • rx.Observable@5d697d4c: 2
+ • rx.Observable@297bdaac: 3
+ • rx.Observable@18861a8f: 9
+ • rx.Observable@297bdaac: 11
+ • rx.Observable@35794eeb: 8
+ • rx.Observable@297bdaac: 19
+ • rx.Observable@18861a8f: 17
+ • rx.Observable@35794eeb: 16
+ • rx.Observable@2bdf997d: 7
+ • rx.Observable@4c081806: 6
+ • rx.Observable@2bdf997d: 15
+ • rx.Observable@4c081806: 14
+ • rx.Observable@46e46d0: 5
+ • rx.Observable@46e46d0: 13
+ • rx.Observable@407393d9: 4
+ • rx.Observable@407393d9: 12
+ • rx.Observable@407393d9: 20
+ • rx.Observable@5d697d4c: 10
+ • rx.Observable@5d697d4c: 18
  ‾
 ----------------------------------------------END
 
@@ -194,10 +194,10 @@ Side effect on terminate
 ----------------------------------------------END
 
 ----------------------------------------------BEGIN
- • [rx.Notification@4139b41d OnNext robin]
- • [rx.Notification@83c9f719 OnNext chaffinch]
- • [rx.Notification@3ac0e495 OnNext jay]
- • [rx.Notification@471186f0 OnCompleted]
+ • [rx.Notification@fe0cb2db OnNext robin]
+ • [rx.Notification@409cf5d7 OnNext chaffinch]
+ • [rx.Notification@f793e353 OnNext jay]
+ • [rx.Notification@7103a8f0 OnCompleted]
  ‾
 ----------------------------------------------END
 

@@ -1,15 +1,15 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-16T14:51:21" hostname="localhost" time="0.082">
+<testsuite name="skw.rx.binding.TransformingObservablesTest" tests="9" failures="0" errors="0" timestamp="2014-05-17T09:15:15" hostname="localhost" time="0.093">
   <properties/>
-  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.003"/>
-  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="buffer" classname="skw.rx.binding.TransformingObservablesTest" time="0.01"/>
+  <testcase name="window" classname="skw.rx.binding.TransformingObservablesTest" time="0.0"/>
   <testcase name="flatMap" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
   <testcase name="map" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
-  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.003"/>
+  <testcase name="cast" classname="skw.rx.binding.TransformingObservablesTest" time="0.002"/>
   <testcase name="scan" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
-  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.014"/>
-  <testcase name="groupBy" classname="skw.rx.binding.TransformingObservablesTest" time="0.0"/>
-  <testcase name="bufferByTime" classname="skw.rx.binding.TransformingObservablesTest" time="0.055"/>
+  <testcase name="pivot" classname="skw.rx.binding.TransformingObservablesTest" time="0.021"/>
+  <testcase name="groupBy" classname="skw.rx.binding.TransformingObservablesTest" time="0.001"/>
+  <testcase name="bufferByTime" classname="skw.rx.binding.TransformingObservablesTest" time="0.054"/>
   <system-out><![CDATA[----------------------------------------------BEGIN
  • [Spencer Ward, Leon Jones, Mitchell Ward]
  • [Sue Ward, Camden Jones, Cynthia Jones]
